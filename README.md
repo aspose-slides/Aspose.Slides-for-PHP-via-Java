@@ -19,12 +19,12 @@ Aspose.Slides for PHP API works without dependencies.
 - Work with ActiveX components.
 
 ## Read & Write PowerPoint Files
-**Microsoft PowerPoint:** PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM
+**Microsoft PowerPoint:** PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM\
 **OpenOffice:** ODP
 
 ## Save PowerPoint Files As 
-**Fixed Layout:** PDF, PDF/A, XPS
-**Images:** JPEG, PNG, BMP, TIFF, GIFS, SVG
+**Fixed Layout:** PDF, PDF/A, XPS\
+**Images:** JPEG, PNG, BMP, TIFF, GIFS, SVG\
 **Web:** HTML
 
 ## Getting Started with Aspose.Slides for PHP via Java
