@@ -3,7 +3,7 @@
 	"type" : "library",
 	"description" : "Aspose.Slides for PHP via Java is a PowerPoint PHP API for creating, manipulating, and managing presentations. It allows applications and developers to read, write, convert, and manipulate PowerPoint presentations in PHP. Using this API, you get to manipulate all elements in a presentation: slides, tables, text, charts, shapes, images, SmartArt diagrams, etc. \n\nAspose.Slides for PHP via Java supports export operations to PDF, PDF/A, HTML, XPS, JPG, PNG, and other image formats. This PowerPoint PHP API provides extensive PPT and PPTX features in PHP: merge, clone, split, compare, print PPT and PPTX presentations in PHP.",
 	"keywords" : [
-		"PowerPoint", "PPT", "PPTX", "PPS", "POT", "PPSX", "PPTM", "PPSM", "POTX", "POTM", "ODP" ,"Convert", "PowerPoint to PDF", "PDF", "PDF/A", "XPS", "JPEG", "PNG", "BMP", "TIFF", "GIF", "SVG"
+		"PowerPoint", "PPT", "PPTX", "PPS", "POT", "PPSX", "PPTM", "PPSM", "POTX", "POTM", "ODP" ,"Convert", "PowerPoint to PDF", "PDF", "PDF\/A", "XPS", "JPEG", "PNG", "BMP", "TIFF", "GIF", "SVG"
 	],
 	"homepage" : "https://products.aspose.com/slides/php-java",
 	"license" : "proprietary",
