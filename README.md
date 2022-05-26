@@ -42,10 +42,11 @@ Aspose.Slides for PHP via Java consists of 3 individual parts: the script wrappe
 1. Install Tomcat on any location such as `\java\apache-tomcat-9.0.24`.
 2. Copy JavaBridge.war to Tomcat's `webapps` folder such as `\java\apache-tomcat-9.0.24\webapps`.
 3. Run `\bin\startup.bat`. JavaBridge.war will be deployed to `\java\apache-tomcat-9.0.24\webapps\JavaBridge`.
-4. Copy aspose-slides-xx.x.jar and aspose.slides.php-xx.x.jar to a `lib` folder such as `\java\apache-tomcat-9.0.24\webapps\JavaBridge\WEB-INF\lib`.
-5. Test http://localhost:8080/JavaBridge/test.php to confirm that PHP works fine.
-6. Copy aspose.slides.php and example.php to `\java\apache-tomcat-9.0.24\webapps\JavaBridge`.
-7. Open http://localhost:8080/JavaBridge/example.php or create your own PHP file (see the examples below)
+4. Copy aspose-slides-xx.x-php.jar to a `lib` folder such as `\java\apache-tomcat-9.0.24\webapps\JavaBridge\WEB-INF\lib`.
+5. Run `\bin\shutdown.bat` and then `\bin\startup.bat`. 
+6. Test http://localhost:8080/JavaBridge/test.php to confirm that PHP works fine.
+7. Copy aspose.slides.php and example.php to `\java\apache-tomcat-9.0.24\webapps\JavaBridge`.
+8. Open http://localhost:8080/JavaBridge/example.php or create your own PHP file (see the examples below)
 
 You will find the Jar and PHP library in the `vendor/aspose/slides` folder.
 
@@ -56,16 +57,18 @@ You will find the Jar and PHP library in the `vendor/aspose/slides` folder.
 require_once("http://localhost:8080/JavaBridge/java/Java.inc");
 require_once("aspose.slides.php");
  
-use aspose\slides;
+use aspose\slides\Presentation;
+use aspose\slides\ShapeType;
+use aspose\slides\SaveFormat;
  
-$prest = new slides\Presentation("template.pptx");
-$prest->save("output.pdf", slides\SaveFormat::Pdf);
-$prest->save("output.xps", slides\SaveFormat::Xps);
-$prest->save("output.tiff", slides\SaveFormat::Tiff);
+$presentation = new Presentation();
+$slide = $presentation->getSlides()->get_Item(0);
+$slide->getShapes()->addAutoShape(ShapeType::Line, 50, 150, 300, 0);
+$presentation->save("template.pptx", SaveFormat::Pptx);
 ?>
 ```
 
-### Create Slides Thumbnails in PHP
+### Convert Presentation to PDF
 
 ```php
 <?php
@@ -73,14 +76,11 @@ require_once("http://localhost:8080/JavaBridge/java/Java.inc");
 require_once("aspose.slides.php");
  
 use aspose\slides\Presentation;
-use javax\imageio\ImageIO;
-use java\io\File;
+use aspose\slides\SaveFormat;
  
 $prest = new Presentation("template.pptx");
-$sld = $prest->getSlides()->get_Item(0);
-$image = $sld->getThumbnail(1, 1);
-ImageIO::write($image, "jpeg", new File("output.jpg"));
+$prest->save("output.pdf", SaveFormat::Pdf);
 ?>
 ```
 
-[Product Page](https://products.aspose.com/slides/php-java) | [Documentation](https://docs.aspose.com/slides/phpjava/) | [API Reference](https://apireference.aspose.com/slides/php) | [Code Examples](https://github.com/aspose-slides/Aspose.Slides-for-Java) | [Blog](https://blog.aspose.com/category/slides/) | [Free Support](https://forum.aspose.com/c/slides) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/slides/php-java/) | [Documentation](https://docs.aspose.com/slides/php-java/) | [API Reference](https://docs.aspose.com/slides/php-java/api-reference/) | [Code Examples](https://github.com/aspose-slides/Aspose.Slides-for-Java) | [Blog](https://blog.aspose.com/category/slides/) | [Free Support](https://forum.aspose.com/c/slides) | [Temporary License](https://purchase.aspose.com/temporary-license)
