@@ -41,7 +41,7 @@ Aspose.Slides for PHP via Java consists of 3 individual parts: the script wrappe
 
 1. Install Tomcat on any location such as `\java\apache-tomcat-9.0.24`.
 2. Copy JavaBridge.war to Tomcat's `webapps` folder such as `\java\apache-tomcat-9.0.24\webapps`.
-3. Run `\bin\startup.bat`. JavaBridge.war will be deployed to `\java\apache-tomcat-9.0.24\webapps\JavaBridge`.
+3. Run `\bin\startup.bat`. JavaBridge.war will be deployed to `\java\apache-tomcat-9.0.24\webapps\JavaBridge`. If you want to **use php 8**, replace the original `Java.inc` from php-java bridge with `Java.inc` from `Java.inc.php8.zip`.
 4. Copy aspose-slides-xx.x-php.jar to a `lib` folder such as `\java\apache-tomcat-9.0.24\webapps\JavaBridge\WEB-INF\lib`.
 5. Run `\bin\shutdown.bat` and then `\bin\startup.bat`. 
 6. Test http://localhost:8080/JavaBridge/test.php to confirm that PHP works fine.
