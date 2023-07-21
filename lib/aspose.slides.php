@@ -42,12 +42,14 @@ class MathNaryOperatorTypes extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class NotesPositions extends Java {
-	const None = 0;
-	const BottomFull = 1;
-	const BottomTruncated = 2;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.NotesPositions";
+class LayoutSlideHeaderFooterManager extends Java {
+	static private $_className = "com.aspose.slides.LayoutSlideHeaderFooterManager";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class MathDelimiter extends Java {
+	static private $_className = "com.aspose.slides.MathDelimiter";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -61,29 +63,14 @@ class EffectChartMajorGroupingType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class CustomXmlPartCollection extends Java {
-	static private $_className = "com.aspose.slides.CustomXmlPartCollection";
+class PathSegment extends Java {
+	static private $_className = "com.aspose.slides.PathSegment";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class SaveOptions extends Java {
 	static private $_className = "com.aspose.slides.SaveOptions";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class MathLimit extends Java {
-	static private $_className = "com.aspose.slides.MathLimit";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class EffectChartMinorGroupingType extends Java {
-	const ByElementInSeries = 0;
-	const ByElementInCategory = 1;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.EffectChartMinorGroupingType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -100,17 +87,14 @@ class TextAnimation extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class SmartArtNode extends Java {
-	static private $_className = "com.aspose.slides.SmartArtNode";
+class MathBoxFactory extends Java {
+	static private $_className = "com.aspose.slides.MathBoxFactory";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class CategoryAxisType extends Java {
-	const Text = 0;
-	const Date = 1;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.CategoryAxisType";
+class SmartArtNode extends Java {
+	static private $_className = "com.aspose.slides.SmartArtNode";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -146,42 +130,97 @@ class OOXMLCorruptFileException extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class LoadFormat extends Java {
-	const Auto = 0;
-	const Ppt = 1;
-	const Pps = 2;
-	const Pptx = 3;
-	const Ppsx = 4;
-	const Odp = 5;
-	const Potx = 6;
-	const Pptm = 7;
-	const Ppsm = 8;
-	const Potm = 9;
-	const Otp = 10;
-	const Ppt95 = 11;
-	const Pot = 12;
-	const Fodp = 13;
-	const Unknown = 255;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.LoadFormat";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class CommandEffect extends Java {
 	static private $_className = "com.aspose.slides.CommandEffect";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class Column extends Java {
-	static private $_className = "com.aspose.slides.Column";
+class MathParagraphFactory extends Java {
+	static private $_className = "com.aspose.slides.MathParagraphFactory";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class NormalViewProperties extends Java {
-	static private $_className = "com.aspose.slides.NormalViewProperties";
+class TableStylePreset extends Java {
+	const Custom = -1;
+	const None = 0;
+	const MediumStyle2Accent1 = 1;
+	const MediumStyle2 = 2;
+	const NoStyleNoGrid = 3;
+	const ThemedStyle1Accent1 = 4;
+	const ThemedStyle1Accent2 = 5;
+	const ThemedStyle1Accent3 = 6;
+	const ThemedStyle1Accent4 = 7;
+	const ThemedStyle1Accent5 = 8;
+	const ThemedStyle1Accent6 = 9;
+	const NoStyleTableGrid = 10;
+	const ThemedStyle2Accent1 = 11;
+	const ThemedStyle2Accent2 = 12;
+	const ThemedStyle2Accent3 = 13;
+	const ThemedStyle2Accent4 = 14;
+	const ThemedStyle2Accent5 = 15;
+	const ThemedStyle2Accent6 = 16;
+	const LightStyle1 = 17;
+	const LightStyle1Accent1 = 18;
+	const LightStyle1Accent2 = 19;
+	const LightStyle1Accent3 = 20;
+	const LightStyle1Accent4 = 21;
+	const LightStyle2Accent5 = 22;
+	const LightStyle1Accent6 = 23;
+	const LightStyle2 = 24;
+	const LightStyle2Accent1 = 25;
+	const LightStyle2Accent2 = 26;
+	const LightStyle2Accent3 = 27;
+	const MediumStyle2Accent3 = 28;
+	const MediumStyle2Accent4 = 29;
+	const MediumStyle2Accent5 = 30;
+	const LightStyle2Accent6 = 31;
+	const LightStyle2Accent4 = 32;
+	const LightStyle3 = 33;
+	const LightStyle3Accent1 = 34;
+	const MediumStyle2Accent2 = 35;
+	const LightStyle3Accent2 = 36;
+	const LightStyle3Accent3 = 37;
+	const LightStyle3Accent4 = 38;
+	const LightStyle3Accent5 = 39;
+	const LightStyle3Accent6 = 40;
+	const MediumStyle1 = 41;
+	const MediumStyle1Accent1 = 42;
+	const MediumStyle1Accent2 = 43;
+	const MediumStyle1Accent3 = 44;
+	const MediumStyle1Accent4 = 45;
+	const MediumStyle1Accent5 = 46;
+	const MediumStyle1Accent6 = 47;
+	const MediumStyle2Accent6 = 48;
+	const MediumStyle3 = 49;
+	const MediumStyle3Accent1 = 50;
+	const MediumStyle3Accent2 = 51;
+	const MediumStyle3Accent3 = 52;
+	const MediumStyle3Accent4 = 53;
+	const MediumStyle3Accent5 = 54;
+	const MediumStyle3Accent6 = 55;
+	const MediumStyle4 = 56;
+	const MediumStyle4Accent1 = 57;
+	const MediumStyle4Accent2 = 58;
+	const MediumStyle4Accent3 = 59;
+	const MediumStyle4Accent4 = 60;
+	const MediumStyle4Accent5 = 61;
+	const MediumStyle4Accent6 = 62;
+	const DarkStyle1 = 63;
+	const DarkStyle1Accent1 = 64;
+	const DarkStyle1Accent2 = 65;
+	const DarkStyle1Accent3 = 66;
+	const DarkStyle1Accent4 = 67;
+	const DarkStyle1Accent5 = 68;
+	const DarkStyle1Accent6 = 69;
+	const DarkStyle2 = 70;
+	const DarkStyle2Accent1Accent2 = 71;
+	const DarkStyle2Accent3Accent4 = 72;
+	const DarkStyle2Accent5Accent6 = 73;
+	const LightStyle1Accent5 = 74;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.TableStylePreset";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -216,13 +255,8 @@ class FontAlignment extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class PictureType extends Java {
-	const NotDefined = -1;
-	const Stack = 0;
-	const StackScale = 1;
-	const Stretch = 2;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.PictureType";
+class Background extends Java {
+	static private $_className = "com.aspose.slides.Background";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -242,54 +276,77 @@ class TextVerticalType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class StringChartValue extends Java {
-	static private $_className = "com.aspose.slides.StringChartValue";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class TabFactory extends Java {
-	static private $_className = "com.aspose.slides.TabFactory";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class PdfOptions extends Java {
 	static private $_className = "com.aspose.slides.PdfOptions";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class FilterEffectSubtype extends Java {
-	const None = 0;
-	const Across = 1;
-	const Down = 2;
-	const DownLeft = 3;
-	const DownRight = 4;
-	const FromBottom = 5;
-	const FromLeft = 6;
-	const FromRight = 7;
-	const FromTop = 8;
-	const Horizontal = 9;
-	const In = 10;
-	const InHorizontal = 11;
-	const InVertical = 12;
-	const Left = 13;
-	const Out = 14;
-	const OutHorizontal = 15;
-	const OutVertical = 16;
-	const Right = 17;
-	const Spokes1 = 18;
-	const Spokes2 = 19;
-	const Spokes3 = 20;
-	const Spokes4 = 21;
-	const Spokes8 = 22;
-	const Up = 23;
-	const UpLeft = 24;
-	const UpRight = 25;
-	const Vertical = 26;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.FilterEffectSubtype";
+class FieldType extends Java {
+	static private $_className = "com.aspose.slides.FieldType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+	static function op_Inequality(...$argv) {
+		return Java(self::$_className)->op_Inequality(...$argv);
+	}
+	static function op_Equality(...$argv) {
+		return Java(self::$_className)->op_Equality(...$argv);
+	}
+	static function getSlideNumber(...$argv) {
+		return Java(self::$_className)->getSlideNumber(...$argv);
+	}
+	static function getDateTime4(...$argv) {
+		return Java(self::$_className)->getDateTime4(...$argv);
+	}
+	static function getDateTime6(...$argv) {
+		return Java(self::$_className)->getDateTime6(...$argv);
+	}
+	static function getDateTime8(...$argv) {
+		return Java(self::$_className)->getDateTime8(...$argv);
+	}
+	static function getFooter(...$argv) {
+		return Java(self::$_className)->getFooter(...$argv);
+	}
+	static function getDateTime5(...$argv) {
+		return Java(self::$_className)->getDateTime5(...$argv);
+	}
+	static function getDateTime9(...$argv) {
+		return Java(self::$_className)->getDateTime9(...$argv);
+	}
+	static function getDateTime3(...$argv) {
+		return Java(self::$_className)->getDateTime3(...$argv);
+	}
+	static function getDateTime7(...$argv) {
+		return Java(self::$_className)->getDateTime7(...$argv);
+	}
+	static function getHeader(...$argv) {
+		return Java(self::$_className)->getHeader(...$argv);
+	}
+	static function getDateTime10(...$argv) {
+		return Java(self::$_className)->getDateTime10(...$argv);
+	}
+	static function getDateTime11(...$argv) {
+		return Java(self::$_className)->getDateTime11(...$argv);
+	}
+	static function getDateTime12(...$argv) {
+		return Java(self::$_className)->getDateTime12(...$argv);
+	}
+	static function getDateTime13(...$argv) {
+		return Java(self::$_className)->getDateTime13(...$argv);
+	}
+	static function getDateTime2(...$argv) {
+		return Java(self::$_className)->getDateTime2(...$argv);
+	}
+	static function getDateTime1(...$argv) {
+		return Java(self::$_className)->getDateTime1(...$argv);
+	}
+	static function getDateTime(...$argv) {
+		return Java(self::$_className)->getDateTime(...$argv);
+	}
+}
+class CellInvalidReferenceException extends Java {
+	static private $_className = "com.aspose.slides.CellInvalidReferenceException";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -300,27 +357,8 @@ class PptReadException extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class BrowsedByIndividual extends Java {
-	static private $_className = "com.aspose.slides.BrowsedByIndividual";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class Background extends Java {
-	static private $_className = "com.aspose.slides.Background";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class TiffCompressionTypes extends Java {
-	const Default = 0;
-	const None = 1;
-	const CCITT3 = 2;
-	const CCITT4 = 3;
-	const LZW = 4;
-	const RLE = 5;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.TiffCompressionTypes";
+class SplitTransition extends Java {
+	static private $_className = "com.aspose.slides.SplitTransition";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -329,6 +367,21 @@ class Tab extends Java {
 	static private $_className = "com.aspose.slides.Tab";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class Convert extends Java {
+	static private $_className = "com.aspose.slides.Convert";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+	static function toPdf(...$argv) {
+		return Java(self::$_className)->toPdf(...$argv);
+	}
+	static function autoByExtension(...$argv) {
+		return Java(self::$_className)->autoByExtension(...$argv);
+	}
+	static function toSvg(...$argv) {
+		return Java(self::$_className)->toSvg(...$argv);
 	}
 }
 class LegendDataLabelPosition extends Java {
@@ -433,73 +486,16 @@ class Table extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class MathDelimiter extends Java {
-	static private $_className = "com.aspose.slides.MathDelimiter";
+class SvgTSpan extends Java {
+	static private $_className = "com.aspose.slides.SvgTSpan";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class FieldType extends Java {
-	static private $_className = "com.aspose.slides.FieldType";
+class FontScheme extends Java {
+	static private $_className = "com.aspose.slides.FontScheme";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
-	}
-	static function getSlideNumber(...$argv) {
-		return Java(self::$_className)->getSlideNumber(...$argv);
-	}
-	static function op_Equality(...$argv) {
-		return Java(self::$_className)->op_Equality(...$argv);
-	}
-	static function op_Inequality(...$argv) {
-		return Java(self::$_className)->op_Inequality(...$argv);
-	}
-	static function getDateTime2(...$argv) {
-		return Java(self::$_className)->getDateTime2(...$argv);
-	}
-	static function getDateTime8(...$argv) {
-		return Java(self::$_className)->getDateTime8(...$argv);
-	}
-	static function getDateTime10(...$argv) {
-		return Java(self::$_className)->getDateTime10(...$argv);
-	}
-	static function getDateTime9(...$argv) {
-		return Java(self::$_className)->getDateTime9(...$argv);
-	}
-	static function getDateTime12(...$argv) {
-		return Java(self::$_className)->getDateTime12(...$argv);
-	}
-	static function getDateTime13(...$argv) {
-		return Java(self::$_className)->getDateTime13(...$argv);
-	}
-	static function getDateTime3(...$argv) {
-		return Java(self::$_className)->getDateTime3(...$argv);
-	}
-	static function getDateTime7(...$argv) {
-		return Java(self::$_className)->getDateTime7(...$argv);
-	}
-	static function getDateTime(...$argv) {
-		return Java(self::$_className)->getDateTime(...$argv);
-	}
-	static function getHeader(...$argv) {
-		return Java(self::$_className)->getHeader(...$argv);
-	}
-	static function getDateTime5(...$argv) {
-		return Java(self::$_className)->getDateTime5(...$argv);
-	}
-	static function getFooter(...$argv) {
-		return Java(self::$_className)->getFooter(...$argv);
-	}
-	static function getDateTime1(...$argv) {
-		return Java(self::$_className)->getDateTime1(...$argv);
-	}
-	static function getDateTime4(...$argv) {
-		return Java(self::$_className)->getDateTime4(...$argv);
-	}
-	static function getDateTime11(...$argv) {
-		return Java(self::$_className)->getDateTime11(...$argv);
-	}
-	static function getDateTime6(...$argv) {
-		return Java(self::$_className)->getDateTime6(...$argv);
 	}
 }
 class MasterThemeManager extends Java {
@@ -508,8 +504,8 @@ class MasterThemeManager extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class LayoutSlideThemeManager extends Java {
-	static private $_className = "com.aspose.slides.LayoutSlideThemeManager";
+class BiLevel extends Java {
+	static private $_className = "com.aspose.slides.BiLevel";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -526,19 +522,6 @@ class TagCollection extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class PicturesCompression extends Java {
-	const Dpi330 = 0;
-	const Dpi220 = 1;
-	const Dpi150 = 2;
-	const Dpi96 = 3;
-	const Dpi72 = 4;
-	const DocumentResolution = 5;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.PicturesCompression";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class PptCorruptFileException extends Java {
 	static private $_className = "com.aspose.slides.PptCorruptFileException";
 	function __construct(...$argv) {
@@ -547,6 +530,12 @@ class PptCorruptFileException extends Java {
 }
 class ImageTransformOperationCollection extends Java {
 	static private $_className = "com.aspose.slides.ImageTransformOperationCollection";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class FontSubstRule extends Java {
+	static private $_className = "com.aspose.slides.FontSubstRule";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -565,6 +554,12 @@ class AlphaReplace extends Java {
 }
 class CellCircularReferenceException extends Java {
 	static private $_className = "com.aspose.slides.CellCircularReferenceException";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class SummaryZoomFrame extends Java {
+	static private $_className = "com.aspose.slides.SummaryZoomFrame";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -618,8 +613,8 @@ class ChartCellCollection extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class PictureFrame extends Java {
-	static private $_className = "com.aspose.slides.PictureFrame";
+class TabFactory extends Java {
+	static private $_className = "com.aspose.slides.TabFactory";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -636,18 +631,145 @@ class PVIObject extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ColorSpace extends Java {
-	const NotDefined = -1;
-	const RGB = 0;
-	const HSL = 1;
+class SmartArtLayoutType extends Java {
+	const AccentProcess = 0;
+	const AccentedPicture = 1;
+	const AlternatingFlow = 2;
+	const AlternatingHexagons = 3;
+	const AlternatingPictureBlocks = 4;
+	const AlternatingPictureCircles = 5;
+	const ArrowRibbon = 6;
+	const AscendingPictureAccentProcess = 7;
+	const Balance = 8;
+	const BasicBendingProcess = 9;
+	const BasicBlockList = 10;
+	const BasicChevronProcess = 11;
+	const BasicCycle = 12;
+	const BasicMatrix = 13;
+	const BasicPie = 14;
+	const BasicProcess = 15;
+	const BasicPyramid = 16;
+	const BasicRadial = 17;
+	const BasicTarget = 18;
+	const BasicTimeline = 19;
+	const BasicVenn = 20;
+	const BendingPictureAccentList = 21;
+	const BendingPictureBlocks = 22;
+	const BendingPictureCaption = 23;
+	const BendingPictureCaptionList = 24;
+	const BendingPictureSemiTransparentText = 25;
+	const BlockCycle = 26;
+	const BubblePictureList = 27;
+	const CaptionedPictures = 28;
+	const ChevronList = 29;
+	const CircleAccentTimeline = 30;
+	const CircleArrowProcess = 31;
+	const CirclePictureHierarchy = 32;
+	const CircleRelationship = 33;
+	const CircularBendingProcess = 34;
+	const CircularPictureCallout = 35;
+	const ClosedChevronProcess = 36;
+	const ContinuousArrowProcess = 37;
+	const ContinuousBlockProcess = 38;
+	const ContinuousCycle = 39;
+	const ContinuousPictureList = 40;
+	const ConvergingArrows = 41;
+	const ConvergingRadial = 42;
+	const CounterbalanceArrows = 43;
+	const CycleMatrix = 44;
+	const DescendingBlockList = 45;
+	const DescendingProcess = 46;
+	const DetailedProcess = 47;
+	const DivergingArrows = 48;
+	const DivergingRadial = 49;
+	const Equation = 50;
+	const FramedTextPicture = 51;
+	const Funnel = 52;
+	const Gear = 53;
+	const GridMatrix = 54;
+	const GroupedList = 55;
+	const HalfCircleOrganizationChart = 56;
+	const HexagonCluster = 57;
+	const Hierarchy = 58;
+	const HierarchyList = 59;
+	const HorizontalBulletList = 60;
+	const HorizontalHierarchy = 61;
+	const HorizontalLabeledHierarchy = 62;
+	const HorizontalMultiLevelHierarchy = 63;
+	const HorizontalOrganizationChart = 64;
+	const HorizontalPictureList = 65;
+	const IncreasingArrowsProcess = 66;
+	const IncreasingCircleProcess = 67;
+	const InvertedPyramid = 68;
+	const LabeledHierarchy = 69;
+	const LinearVenn = 70;
+	const LinedList = 71;
+	const MultidirectionalCycle = 72;
+	const NameandTitleOrganizationChart = 73;
+	const NestedTarget = 74;
+	const NondirectionalCycle = 75;
+	const OpposingArrows = 76;
+	const OpposingIdeas = 77;
+	const OrganizationChart = 78;
+	const PhasedProcess = 79;
+	const PictureAccentBlocks = 80;
+	const PictureAccentList = 81;
+	const PictureAccentProcess = 82;
+	const PictureCaptionList = 83;
+	const PictureGrid = 84;
+	const PictureLineup = 85;
+	const PictureStrips = 86;
+	const PieProcess = 87;
+	const PlusandMinus = 88;
+	const ProcessArrows = 89;
+	const ProcessList = 90;
+	const PyramidList = 91;
+	const RadialCluster = 92;
+	const RadialCycle = 93;
+	const RadialList = 94;
+	const RadialVenn = 95;
+	const RandomToResultProcess = 96;
+	const RepeatingBendingProcess = 97;
+	const ReverseList = 98;
+	const SegmentedCycle = 99;
+	const SegmentedProcess = 100;
+	const SegmentedPyramid = 101;
+	const SnapshotPictureList = 102;
+	const SpiralPicture = 103;
+	const SquareAccentList = 104;
+	const StackedList = 105;
+	const StackedVenn = 106;
+	const StaggeredProcess = 107;
+	const StepDownProcess = 108;
+	const StepUpProcess = 109;
+	const SubStepProcess = 110;
+	const TableHierarchy = 111;
+	const TableList = 112;
+	const TargetList = 113;
+	const TextCycle = 114;
+	const TitlePictureLineup = 115;
+	const TitledMatrix = 116;
+	const TitledPictureAccentList = 117;
+	const TitledPictureBlocks = 118;
+	const TrapezoidList = 119;
+	const UpwardArrow = 120;
+	const VerticalAccentList = 121;
+	const VerticalArrowList = 122;
+	const VerticalBendingProcess = 123;
+	const VerticalBlockList = 124;
+	const VerticalBoxList = 125;
+	const VerticalBulletList = 126;
+	const VerticalChevronList = 127;
+	const VerticalCircleList = 128;
+	const VerticalCurvedList = 129;
+	const VerticalEquation = 130;
+	const VerticalPictureAccentList = 131;
+	const VerticalPictureList = 132;
+	const VerticalProcess = 133;
+	const Custom = 134;
+	const PictureOrganizationChart = 135;
 	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.ColorSpace";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class XpsOptions extends Java {
-	static private $_className = "com.aspose.slides.XpsOptions";
+	static private $_className = "com.aspose.slides.SmartArtLayoutType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -663,14 +785,31 @@ class TickMarkType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class GradientShape extends Java {
-	const NotDefined = -1;
-	const Linear = 0;
-	const Rectangle = 1;
-	const Radial = 2;
-	const Path = 3;
+class MathRadical extends Java {
+	static private $_className = "com.aspose.slides.MathRadical";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class PlaceholderType extends Java {
+	const Title = 0;
+	const Body = 1;
+	const CenteredTitle = 2;
+	const Subtitle = 3;
+	const DateAndTime = 4;
+	const SlideNumber = 5;
+	const Footer = 6;
+	const Header = 7;
+	const Object = 8;
+	const Chart = 9;
+	const Table = 10;
+	const ClipArt = 11;
+	const Diagram = 12;
+	const Media = 13;
+	const SlideImage = 14;
+	const Picture = 15;
 	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.GradientShape";
+	static private $_className = "com.aspose.slides.PlaceholderType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -697,8 +836,8 @@ class SectionSlideCollection extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class DataSourceTypeForErrorBarsCustomValues extends Java {
-	static private $_className = "com.aspose.slides.DataSourceTypeForErrorBarsCustomValues";
+class DoubleChartValue extends Java {
+	static private $_className = "com.aspose.slides.DoubleChartValue";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -709,8 +848,8 @@ class FontsManager extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class SwfOptions extends Java {
-	static private $_className = "com.aspose.slides.SwfOptions";
+class ChartDataPointCollection extends Java {
+	static private $_className = "com.aspose.slides.ChartDataPointCollection";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -727,8 +866,8 @@ class MathMatrixFactory extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class FontFallBackRule extends Java {
-	static private $_className = "com.aspose.slides.FontFallBackRule";
+class BasePortionFormat extends Java {
+	static private $_className = "com.aspose.slides.BasePortionFormat";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -739,14 +878,29 @@ class HtmlGenerator extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class PptException extends Java {
-	static private $_className = "com.aspose.slides.PptException";
+class TextExtractionArrangingMode extends Java {
+	const Unarranged = 0;
+	const Arranged = 1;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.TextExtractionArrangingMode";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class SketchFormat extends Java {
+	static private $_className = "com.aspose.slides.SketchFormat";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class Shape extends Java {
 	static private $_className = "com.aspose.slides.Shape";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class GradientStop extends Java {
+	static private $_className = "com.aspose.slides.GradientStop";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -790,19 +944,14 @@ class PresetShadowType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class LineFillFormat extends Java {
-	static private $_className = "com.aspose.slides.LineFillFormat";
+class ChartCategoryCollection extends Java {
+	static private $_className = "com.aspose.slides.ChartCategoryCollection";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class MathHorizontalAlignment extends Java {
-	const NotDefined = 0;
-	const Left = 1;
-	const Center = 2;
-	const Right = 3;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.MathHorizontalAlignment";
+class LineFillFormat extends Java {
+	static private $_className = "com.aspose.slides.LineFillFormat";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -828,8 +977,12 @@ class MathBorderBox extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ProtectionManager extends Java {
-	static private $_className = "com.aspose.slides.ProtectionManager";
+class FontCollectionIndex extends Java {
+	const None = 0;
+	const Minor = 1;
+	const Major = 2;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.FontCollectionIndex";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -868,6 +1021,20 @@ class TickLabelPositionType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class LineArrowheadStyle extends Java {
+	const NotDefined = -1;
+	const None = 0;
+	const Triangle = 1;
+	const Stealth = 2;
+	const Diamond = 3;
+	const Oval = 4;
+	const Open = 5;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.LineArrowheadStyle";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class ShapeElementFillSource extends Java {
 	const NoFill = 0;
 	const Shape = 1;
@@ -881,17 +1048,6 @@ class ShapeElementFillSource extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class LineArrowheadLength extends Java {
-	const NotDefined = -1;
-	const Short = 0;
-	const Medium = 1;
-	const Long = 2;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.LineArrowheadLength";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class TileFlip extends Java {
 	const NotDefined = -1;
 	const NoFlip = 0;
@@ -900,6 +1056,18 @@ class TileFlip extends Java {
 	const FlipBoth = 3;
 	const EnumSeparatorCharArray = ",";
 	static private $_className = "com.aspose.slides.TileFlip";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class TransitionCornerAndCenterDirectionType extends Java {
+	const LeftDown = 0;
+	const LeftUp = 1;
+	const RightDown = 2;
+	const RightUp = 3;
+	const Center = 4;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.TransitionCornerAndCenterDirectionType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -935,41 +1103,11 @@ class ReturnAction extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class MathDelimiterFactory extends Java {
-	static private $_className = "com.aspose.slides.MathDelimiterFactory";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class QuartileMethodType extends Java {
 	const Exclusive = 0;
 	const Inclusive = 1;
 	const EnumSeparatorCharArray = ",";
 	static private $_className = "com.aspose.slides.QuartileMethodType";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class VbaReferenceOleTypeLib extends Java {
-	static private $_className = "com.aspose.slides.VbaReferenceOleTypeLib";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class OOXMLException extends Java {
-	static private $_className = "com.aspose.slides.OOXMLException";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class Portion extends Java {
-	static private $_className = "com.aspose.slides.Portion";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class PresetShadow extends Java {
-	static private $_className = "com.aspose.slides.PresetShadow";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -980,14 +1118,21 @@ class NotesCommentsLayoutingOptions extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ChartDataWorkbook extends Java {
-	static private $_className = "com.aspose.slides.ChartDataWorkbook";
+class FillOverlay extends Java {
+	static private $_className = "com.aspose.slides.FillOverlay";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class MathArrayFactory extends Java {
-	static private $_className = "com.aspose.slides.MathArrayFactory";
+class PathCommandType extends Java {
+	const Close = 0;
+	const MoveTo = 1;
+	const LineTo = 2;
+	const ArcTo = 3;
+	const QuadBezierTo = 4;
+	const CubicBezierTo = 5;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.PathCommandType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1004,53 +1149,20 @@ class ExternalResourceResolver extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class GeometryShape extends Java {
+	static private $_className = "com.aspose.slides.GeometryShape";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class SlideShowType extends Java {
 	static private $_className = "com.aspose.slides.SlideShowType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class SmartArtColorType extends Java {
-	const Dark1Outline = 0;
-	const Dark2Outline = 1;
-	const DarkFill = 2;
-	const ColorfulAccentColors = 3;
-	const ColorfulAccentColors2to3 = 4;
-	const ColorfulAccentColors3to4 = 5;
-	const ColorfulAccentColors4to5 = 6;
-	const ColorfulAccentColors5to6 = 7;
-	const ColoredOutlineAccent1 = 8;
-	const ColoredFillAccent1 = 9;
-	const GradientRangeAccent1 = 10;
-	const GradientLoopAccent1 = 11;
-	const TransparentGradientRangeAccent1 = 12;
-	const ColoredOutlineAccent2 = 13;
-	const ColoredFillAccent2 = 14;
-	const GradientRangeAccent2 = 15;
-	const GradientLoopAccent2 = 16;
-	const TransparentGradientRangeAccent2 = 17;
-	const ColoredOutlineAccent3 = 18;
-	const ColoredFillAccent3 = 19;
-	const GradientRangeAccent3 = 20;
-	const GradientLoopAccent3 = 21;
-	const TransparentGradientRangeAccent3 = 22;
-	const ColoredOutlineAccent4 = 23;
-	const ColoredFillAccent4 = 24;
-	const GradientRangeAccent4 = 25;
-	const GradientLoopAccent4 = 26;
-	const TransparentGradientRangeAccent4 = 27;
-	const ColoredOutlineAccent5 = 28;
-	const ColoredFillAccent5 = 29;
-	const GradientRangeAccent5 = 30;
-	const GradientLoopAccent5 = 31;
-	const TransparentGradientRangeAccent5 = 32;
-	const ColoredOutlineAccent6 = 33;
-	const ColoredFillAccent6 = 34;
-	const GradientRangeAccent6 = 35;
-	const GradientLoopAccent6 = 36;
-	const TransparentGradientRangeAccent6 = 37;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.SmartArtColorType";
+class VideoPlayerHtmlController extends Java {
+	static private $_className = "com.aspose.slides.VideoPlayerHtmlController";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1067,14 +1179,8 @@ class XamlOptions extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ErrorBarValueType extends Java {
-	const Custom = 0;
-	const Fixed = 1;
-	const Percentage = 2;
-	const StandardDeviation = 3;
-	const StandardError = 4;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.ErrorBarValueType";
+class Trendline extends Java {
+	static private $_className = "com.aspose.slides.Trendline";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1085,8 +1191,26 @@ class DigitalSignature extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class Camera extends Java {
+	static private $_className = "com.aspose.slides.Camera";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class RotationEffect extends Java {
 	static private $_className = "com.aspose.slides.RotationEffect";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class OdpReadException extends Java {
+	static private $_className = "com.aspose.slides.OdpReadException";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ColorReplace extends Java {
+	static private $_className = "com.aspose.slides.ColorReplace";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1095,27 +1219,6 @@ class ParagraphFormat extends Java {
 	static private $_className = "com.aspose.slides.ParagraphFormat";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class SlideUtil extends Java {
-	static private $_className = "com.aspose.slides.SlideUtil";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-	static function findAndReplaceText(...$argv) {
-		return Java(self::$_className)->findAndReplaceText(...$argv);
-	}
-	static function alignShapes(...$argv) {
-		return Java(self::$_className)->alignShapes(...$argv);
-	}
-	static function findShape(...$argv) {
-		return Java(self::$_className)->findShape(...$argv);
-	}
-	static function getAllTextBoxes(...$argv) {
-		return Java(self::$_className)->getAllTextBoxes(...$argv);
-	}
-	static function getAllTextFrames(...$argv) {
-		return Java(self::$_className)->getAllTextFrames(...$argv);
 	}
 }
 class FillType extends Java {
@@ -1173,6 +1276,27 @@ class AsposeLicenseException extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class MotionCmdPath extends Java {
+	static private $_className = "com.aspose.slides.MotionCmdPath";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class CategoryAxisType extends Java {
+	const Text = 0;
+	const Date = 1;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.CategoryAxisType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class Portion extends Java {
+	static private $_className = "com.aspose.slides.Portion";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class TextAnimationCollection extends Java {
 	static private $_className = "com.aspose.slides.TextAnimationCollection";
 	function __construct(...$argv) {
@@ -1185,6 +1309,12 @@ class DataLabelFormat extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class ChartThemeManager extends Java {
+	static private $_className = "com.aspose.slides.ChartThemeManager";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class ChartData extends Java {
 	static private $_className = "com.aspose.slides.ChartData";
 	function __construct(...$argv) {
@@ -1193,6 +1323,56 @@ class ChartData extends Java {
 }
 class ParagraphCollection extends Java {
 	static private $_className = "com.aspose.slides.ParagraphCollection";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class TextShapeType extends Java {
+	const NotDefined = -1;
+	const None = 0;
+	const Plain = 1;
+	const Stop = 2;
+	const Triangle = 3;
+	const TriangleInverted = 4;
+	const Chevron = 5;
+	const ChevronInverted = 6;
+	const RingInside = 7;
+	const RingOutside = 8;
+	const ArchUp = 9;
+	const ArchDown = 10;
+	const Circle = 11;
+	const Button = 12;
+	const ArchUpPour = 13;
+	const ArchDownPour = 14;
+	const CirclePour = 15;
+	const ButtonPour = 16;
+	const CurveUp = 17;
+	const CurveDown = 18;
+	const CanUp = 19;
+	const CanDown = 20;
+	const Wave1 = 21;
+	const Wave2 = 22;
+	const DoubleWave1 = 23;
+	const Wave4 = 24;
+	const Inflate = 25;
+	const Deflate = 26;
+	const InflateBottom = 27;
+	const DeflateBottom = 28;
+	const InflateTop = 29;
+	const DeflateTop = 30;
+	const DeflateInflate = 31;
+	const DeflateInflateDeflate = 32;
+	const FadeRight = 33;
+	const FadeLeft = 34;
+	const FadeUp = 35;
+	const FadeDown = 36;
+	const SlantUp = 37;
+	const SlantDown = 38;
+	const CascadeUp = 39;
+	const CascadeDown = 40;
+	const Custom = 41;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.TextShapeType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1215,20 +1395,6 @@ class NotesSize extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class LineArrowheadStyle extends Java {
-	const NotDefined = -1;
-	const None = 0;
-	const Triangle = 1;
-	const Stealth = 2;
-	const Diamond = 3;
-	const Oval = 4;
-	const Open = 5;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.LineArrowheadStyle";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class FormatFactory extends Java {
 	static private $_className = "com.aspose.slides.FormatFactory";
 	function __construct(...$argv) {
@@ -1238,8 +1404,14 @@ class FormatFactory extends Java {
 		return Java(self::$_className)->getInstance(...$argv);
 	}
 }
-class ZoomFrame extends Java {
-	static private $_className = "com.aspose.slides.ZoomFrame";
+class FontSources extends Java {
+	static private $_className = "com.aspose.slides.FontSources";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class MathArrayFactory extends Java {
+	static private $_className = "com.aspose.slides.MathArrayFactory";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1250,30 +1422,20 @@ class Placeholder extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class AnimationTimeLine extends Java {
-	static private $_className = "com.aspose.slides.AnimationTimeLine";
+class NotesSlideManager extends Java {
+	static private $_className = "com.aspose.slides.NotesSlideManager";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class PptEditException extends Java {
-	static private $_className = "com.aspose.slides.PptEditException";
+class GradientStopCollection extends Java {
+	static private $_className = "com.aspose.slides.GradientStopCollection";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class TrendlineCollection extends Java {
 	static private $_className = "com.aspose.slides.TrendlineCollection";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class FontCollectionIndex extends Java {
-	const None = 0;
-	const Minor = 1;
-	const Major = 2;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.FontCollectionIndex";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1327,26 +1489,37 @@ class ChartDataPointLevelsManager extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class ColorSpace extends Java {
+	const NotDefined = -1;
+	const RGB = 0;
+	const HSL = 1;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.ColorSpace";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class MathBox extends Java {
+	static private $_className = "com.aspose.slides.MathBox";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class CellInvalidFormulaException extends Java {
 	static private $_className = "com.aspose.slides.CellInvalidFormulaException";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class TransitionCornerAndCenterDirectionType extends Java {
-	const LeftDown = 0;
-	const LeftUp = 1;
-	const RightDown = 2;
-	const RightUp = 3;
-	const Center = 4;
+class PicturesCompression extends Java {
+	const Dpi330 = 0;
+	const Dpi220 = 1;
+	const Dpi150 = 2;
+	const Dpi96 = 3;
+	const Dpi72 = 4;
+	const DocumentResolution = 5;
 	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.TransitionCornerAndCenterDirectionType";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class HSL extends Java {
-	static private $_className = "com.aspose.slides.HSL";
+	static private $_className = "com.aspose.slides.PicturesCompression";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1415,12 +1588,13 @@ class TransitionType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class DataSourceType extends Java {
-	const Worksheet = 0;
-	const StringLiterals = 1;
-	const DoubleLiterals = 2;
+class CommandEffectType extends Java {
+	const NotDefined = -1;
+	const Event = 0;
+	const Call = 1;
+	const Verb = 2;
 	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.DataSourceType";
+	static private $_className = "com.aspose.slides.CommandEffectType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1472,23 +1646,20 @@ class Hyperlink extends Java {
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
-	static function getLastVievedSlide(...$argv) {
-		return Java(self::$_className)->getLastVievedSlide(...$argv);
+	static function op_Inequality(...$argv) {
+		return Java(self::$_className)->op_Inequality(...$argv);
 	}
 	static function op_Equality(...$argv) {
 		return Java(self::$_className)->op_Equality(...$argv);
 	}
-	static function op_Inequality(...$argv) {
-		return Java(self::$_className)->op_Inequality(...$argv);
+	static function getLastVievedSlide(...$argv) {
+		return Java(self::$_className)->getLastVievedSlide(...$argv);
 	}
 	static function getPreviousSlide(...$argv) {
 		return Java(self::$_className)->getPreviousSlide(...$argv);
 	}
-	static function getLastSlide(...$argv) {
-		return Java(self::$_className)->getLastSlide(...$argv);
-	}
-	static function getEndShow(...$argv) {
-		return Java(self::$_className)->getEndShow(...$argv);
+	static function getMedia(...$argv) {
+		return Java(self::$_className)->getMedia(...$argv);
 	}
 	static function getNextSlide(...$argv) {
 		return Java(self::$_className)->getNextSlide(...$argv);
@@ -1496,8 +1667,11 @@ class Hyperlink extends Java {
 	static function getFirstSlide(...$argv) {
 		return Java(self::$_className)->getFirstSlide(...$argv);
 	}
-	static function getMedia(...$argv) {
-		return Java(self::$_className)->getMedia(...$argv);
+	static function getEndShow(...$argv) {
+		return Java(self::$_className)->getEndShow(...$argv);
+	}
+	static function getLastSlide(...$argv) {
+		return Java(self::$_className)->getLastSlide(...$argv);
 	}
 	static function getNoAction(...$argv) {
 		return Java(self::$_className)->getNoAction(...$argv);
@@ -1509,14 +1683,14 @@ class RowCollection extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class AxesCompositionNotCombinableException extends Java {
-	static private $_className = "com.aspose.slides.AxesCompositionNotCombinableException";
+class ErrorBarsCustomValues extends Java {
+	static private $_className = "com.aspose.slides.ErrorBarsCustomValues";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class PathSegment extends Java {
-	static private $_className = "com.aspose.slides.PathSegment";
+class Reflection extends Java {
+	static private $_className = "com.aspose.slides.Reflection";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1547,29 +1721,24 @@ class FilterEffectType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class TransitionShredPattern extends Java {
-	const Strip = 0;
-	const Rectangle = 1;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.TransitionShredPattern";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class Rotation3D extends Java {
 	static private $_className = "com.aspose.slides.Rotation3D";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class MathRowSpacingRule extends Java {
-	const SingleLineGap = 0;
-	const OneAndAHalfLineGap = 1;
-	const TwoLineGap = 2;
-	const Exactly = 3;
-	const Multiple = 4;
+class Connector extends Java {
+	static private $_className = "com.aspose.slides.Connector";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class MarkdownExportType extends Java {
+	const Sequential = 0;
+	const TextOnly = 1;
+	const Visual = 2;
 	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.MathRowSpacingRule";
+	static private $_className = "com.aspose.slides.MarkdownExportType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1579,14 +1748,14 @@ class Compress extends Java {
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
-	static function compressEmbeddedFonts(...$argv) {
-		return Java(self::$_className)->compressEmbeddedFonts(...$argv);
-	}
 	static function removeUnusedMasterSlides(...$argv) {
 		return Java(self::$_className)->removeUnusedMasterSlides(...$argv);
 	}
 	static function removeUnusedLayoutSlides(...$argv) {
 		return Java(self::$_className)->removeUnusedLayoutSlides(...$argv);
+	}
+	static function compressEmbeddedFonts(...$argv) {
+		return Java(self::$_className)->compressEmbeddedFonts(...$argv);
 	}
 }
 class MathPortion extends Java {
@@ -1607,12 +1776,6 @@ class CellCollection extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class BasePortionFormat extends Java {
-	static private $_className = "com.aspose.slides.BasePortionFormat";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class TextAutofitType extends Java {
 	const NotDefined = -1;
 	const None = 0;
@@ -1620,6 +1783,12 @@ class TextAutofitType extends Java {
 	const Shape = 2;
 	const EnumSeparatorCharArray = ",";
 	static private $_className = "com.aspose.slides.TextAutofitType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class MotionEffect extends Java {
+	static private $_className = "com.aspose.slides.MotionEffect";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1658,17 +1827,11 @@ class Metered extends Java {
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
-	static function getConsumptionQuantity(...$argv) {
-		return Java(self::$_className)->getConsumptionQuantity(...$argv);
-	}
 	static function getConsumptionCredit(...$argv) {
 		return Java(self::$_className)->getConsumptionCredit(...$argv);
 	}
-}
-class MasterSlideCollection extends Java {
-	static private $_className = "com.aspose.slides.MasterSlideCollection";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
+	static function getConsumptionQuantity(...$argv) {
+		return Java(self::$_className)->getConsumptionQuantity(...$argv);
 	}
 }
 class MathAccentFactory extends Java {
@@ -1679,6 +1842,12 @@ class MathAccentFactory extends Java {
 }
 class LightRig extends Java {
 	static private $_className = "com.aspose.slides.LightRig";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class BrowsedByIndividual extends Java {
+	static private $_className = "com.aspose.slides.BrowsedByIndividual";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1699,6 +1868,27 @@ class TextAlignment extends Java {
 	const Distributed = 5;
 	const EnumSeparatorCharArray = ",";
 	static private $_className = "com.aspose.slides.TextAlignment";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class CommonSlideViewProperties extends Java {
+	static private $_className = "com.aspose.slides.CommonSlideViewProperties";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ColorOperationCollection extends Java {
+	static private $_className = "com.aspose.slides.ColorOperationCollection";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class EffectChartMinorGroupingType extends Java {
+	const ByElementInSeries = 0;
+	const ByElementInCategory = 1;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.EffectChartMinorGroupingType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1754,26 +1944,38 @@ class LightRigPresetType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class GradientStopCollection extends Java {
-	static private $_className = "com.aspose.slides.GradientStopCollection";
+class MathSubscriptElementFactory extends Java {
+	static private $_className = "com.aspose.slides.MathSubscriptElementFactory";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class SummaryZoomSection extends Java {
-	static private $_className = "com.aspose.slides.SummaryZoomSection";
+class GradientShape extends Java {
+	const NotDefined = -1;
+	const Linear = 0;
+	const Rectangle = 1;
+	const Radial = 2;
+	const Path = 3;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.GradientShape";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class DomObject extends Java {
-	static private $_className = "com.aspose.slides.DomObject";
+class ControlPropertiesCollection extends Java {
+	static private $_className = "com.aspose.slides.ControlPropertiesCollection";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class FilterEffect extends Java {
 	static private $_className = "com.aspose.slides.FilterEffect";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class CustomXmlPartCollection extends Java {
+	static private $_className = "com.aspose.slides.CustomXmlPartCollection";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1792,8 +1994,8 @@ class ColorType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class FontSubstRule extends Java {
-	static private $_className = "com.aspose.slides.FontSubstRule";
+class Timing extends Java {
+	static private $_className = "com.aspose.slides.Timing";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1856,14 +2058,14 @@ class MarkdownSaveOptions extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class SmartArtNodeCollection extends Java {
-	static private $_className = "com.aspose.slides.SmartArtNodeCollection";
+class MathLimit extends Java {
+	static private $_className = "com.aspose.slides.MathLimit";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ResponsiveHtmlController extends Java {
-	static private $_className = "com.aspose.slides.ResponsiveHtmlController";
+class MasterSlideCollection extends Java {
+	static private $_className = "com.aspose.slides.MasterSlideCollection";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1874,8 +2076,8 @@ class MathAccent extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class RippleTransition extends Java {
-	static private $_className = "com.aspose.slides.RippleTransition";
+class ChartTitle extends Java {
+	static private $_className = "com.aspose.slides.ChartTitle";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1898,26 +2100,14 @@ class DisplayUnitType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class SlideSizeType extends Java {
-	const OnScreen = 0;
-	const LetterPaper = 1;
-	const A4Paper = 2;
-	const Slide35mm = 3;
-	const Overhead = 4;
-	const Banner = 5;
-	const Custom = 6;
-	const Ledger = 7;
-	const A3Paper = 8;
-	const B4IsoPaper = 9;
-	const B5IsoPaper = 10;
-	const B4JisPaper = 11;
-	const B5JisPaper = 12;
-	const HagakiCard = 13;
-	const OnScreen16x9 = 14;
-	const OnScreen16x10 = 15;
-	const Widescreen = 16;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.SlideSizeType";
+class VbaReferenceCollection extends Java {
+	static private $_className = "com.aspose.slides.VbaReferenceCollection";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ImageTransformOperationFactory extends Java {
+	static private $_className = "com.aspose.slides.ImageTransformOperationFactory";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1946,26 +2136,14 @@ class LayoutSlide extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class MathSpacingRules extends Java {
-	const SingleSpacingGap = 0;
-	const OneAndHalfSpacingGap = 1;
-	const DoubleSpacingGap = 2;
-	const Exactly = 3;
-	const Multiple = 4;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.MathSpacingRules";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class PptxOptions extends Java {
 	static private $_className = "com.aspose.slides.PptxOptions";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ColorOffset extends Java {
-	static private $_className = "com.aspose.slides.ColorOffset";
+class MathematicalTextFactory extends Java {
+	static private $_className = "com.aspose.slides.MathematicalTextFactory";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1995,6 +2173,18 @@ class InterruptionToken extends Java {
 		return Java(self::$_className)->getNone(...$argv);
 	}
 }
+class PointCollection extends Java {
+	static private $_className = "com.aspose.slides.PointCollection";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class PPImage extends Java {
+	static private $_className = "com.aspose.slides.PPImage";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class PieSplitType extends Java {
 	const Default = 0;
 	const Custom = 1;
@@ -2007,58 +2197,31 @@ class PieSplitType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class TextShapeType extends Java {
-	const NotDefined = -1;
-	const None = 0;
-	const Plain = 1;
-	const Stop = 2;
-	const Triangle = 3;
-	const TriangleInverted = 4;
-	const Chevron = 5;
-	const ChevronInverted = 6;
-	const RingInside = 7;
-	const RingOutside = 8;
-	const ArchUp = 9;
-	const ArchDown = 10;
-	const Circle = 11;
-	const Button = 12;
-	const ArchUpPour = 13;
-	const ArchDownPour = 14;
-	const CirclePour = 15;
-	const ButtonPour = 16;
-	const CurveUp = 17;
-	const CurveDown = 18;
-	const CanUp = 19;
-	const CanDown = 20;
-	const Wave1 = 21;
-	const Wave2 = 22;
-	const DoubleWave1 = 23;
-	const Wave4 = 24;
-	const Inflate = 25;
-	const Deflate = 26;
-	const InflateBottom = 27;
-	const DeflateBottom = 28;
-	const InflateTop = 29;
-	const DeflateTop = 30;
-	const DeflateInflate = 31;
-	const DeflateInflateDeflate = 32;
-	const FadeRight = 33;
-	const FadeLeft = 34;
-	const FadeUp = 35;
-	const FadeDown = 36;
-	const SlantUp = 37;
-	const SlantDown = 38;
-	const CascadeUp = 39;
-	const CascadeDown = 40;
-	const Custom = 41;
+class CornerDirectionTransition extends Java {
+	static private $_className = "com.aspose.slides.CornerDirectionTransition";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class MathJustification extends Java {
+	const LeftJustified = 1;
+	const RightJustified = 2;
+	const Centered = 3;
+	const CenteredAsGroup = 4;
 	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.TextShapeType";
+	static private $_className = "com.aspose.slides.MathJustification";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class FontDataFactory extends Java {
 	static private $_className = "com.aspose.slides.FontDataFactory";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class VbaProject extends Java {
+	static private $_className = "com.aspose.slides.VbaProject";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -2157,12 +2320,6 @@ class MathLimitLocations extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class InvalidPasswordException extends Java {
-	static private $_className = "com.aspose.slides.InvalidPasswordException";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class BehaviorPropertyCollection extends Java {
 	static private $_className = "com.aspose.slides.BehaviorPropertyCollection";
 	function __construct(...$argv) {
@@ -2175,14 +2332,24 @@ class RowFormat extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class GradientStopCollectionEffectiveData extends Java {
+	static private $_className = "com.aspose.slides.GradientStopCollectionEffectiveData";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class SlideThemeManager extends Java {
 	static private $_className = "com.aspose.slides.SlideThemeManager";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class GraphicalObjectLock extends Java {
-	static private $_className = "com.aspose.slides.GraphicalObjectLock";
+class DataSourceType extends Java {
+	const Worksheet = 0;
+	const StringLiterals = 1;
+	const DoubleLiterals = 2;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.DataSourceType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -2199,20 +2366,32 @@ class Audio extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class GraphicalObjectLock extends Java {
+	static private $_className = "com.aspose.slides.GraphicalObjectLock";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class MathParagraph extends Java {
 	static private $_className = "com.aspose.slides.MathParagraph";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class MathBorderBoxFactory extends Java {
-	static private $_className = "com.aspose.slides.MathBorderBoxFactory";
+class BaseSlide extends Java {
+	static private $_className = "com.aspose.slides.BaseSlide";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class OdpReadException extends Java {
-	static private $_className = "com.aspose.slides.OdpReadException";
+class BulletType extends Java {
+	const NotDefined = -1;
+	const None = 0;
+	const Symbol = 1;
+	const Numbered = 2;
+	const Picture = 3;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.BulletType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -2280,6 +2459,12 @@ class EffectSubtype extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class SmartArtShapeCollection extends Java {
+	static private $_className = "com.aspose.slides.SmartArtShapeCollection";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class Html5Options extends Java {
 	static private $_className = "com.aspose.slides.Html5Options";
 	function __construct(...$argv) {
@@ -2313,8 +2498,26 @@ class LegacyDiagram extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class MathBarFactory extends Java {
-	static private $_className = "com.aspose.slides.MathBarFactory";
+class SlideSizeType extends Java {
+	const OnScreen = 0;
+	const LetterPaper = 1;
+	const A4Paper = 2;
+	const Slide35mm = 3;
+	const Overhead = 4;
+	const Banner = 5;
+	const Custom = 6;
+	const Ledger = 7;
+	const A3Paper = 8;
+	const B4IsoPaper = 9;
+	const B5IsoPaper = 10;
+	const B4JisPaper = 11;
+	const B5JisPaper = 12;
+	const HagakiCard = 13;
+	const OnScreen16x9 = 14;
+	const OnScreen16x10 = 15;
+	const Widescreen = 16;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.SlideSizeType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -2363,12 +2566,6 @@ class SystemColor extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ConnectorLock extends Java {
-	static private $_className = "com.aspose.slides.ConnectorLock";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class EffectRestartType extends Java {
 	const NotDefined = -1;
 	const Always = 0;
@@ -2376,12 +2573,6 @@ class EffectRestartType extends Java {
 	const Never = 2;
 	const EnumSeparatorCharArray = ",";
 	static private $_className = "com.aspose.slides.EffectRestartType";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class GraphicalObject extends Java {
-	static private $_className = "com.aspose.slides.GraphicalObject";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -2406,24 +2597,8 @@ class BevelPresetType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class SvgTSpan extends Java {
-	static private $_className = "com.aspose.slides.SvgTSpan";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class BaseHandoutNotesSlideHeaderFooterManager extends Java {
 	static private $_className = "com.aspose.slides.BaseHandoutNotesSlideHeaderFooterManager";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class EffectTriggerType extends Java {
-	const AfterPrevious = 0;
-	const OnClick = 1;
-	const WithPrevious = 2;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.EffectTriggerType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -2473,32 +2648,14 @@ class StringOrDoubleChartValue extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ChartDataWorksheetCollection extends Java {
-	static private $_className = "com.aspose.slides.ChartDataWorksheetCollection";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class EmbeddedEotFontsHtmlController extends Java {
 	static private $_className = "com.aspose.slides.EmbeddedEotFontsHtmlController";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ChartThemeManager extends Java {
-	static private $_className = "com.aspose.slides.ChartThemeManager";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class ColorChange extends Java {
-	static private $_className = "com.aspose.slides.ColorChange";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class HtmlOptions extends Java {
-	static private $_className = "com.aspose.slides.HtmlOptions";
+class ImageTransformOperation extends Java {
+	static private $_className = "com.aspose.slides.ImageTransformOperation";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -2509,34 +2666,25 @@ class Slide extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class TextCapType extends Java {
-	const NotDefined = -1;
-	const None = 0;
-	const Small = 1;
-	const All = 2;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.TextCapType";
+class FontFallBackRule extends Java {
+	static private $_className = "com.aspose.slides.FontFallBackRule";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ZoomImageType extends Java {
-	const Preview = 1;
-	const Cover = 2;
+class AfterAnimationType extends Java {
+	const DoNotDim = 0;
+	const Color = 1;
+	const HideAfterAnimation = 2;
+	const HideOnNextMouseClick = 3;
 	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.ZoomImageType";
+	static private $_className = "com.aspose.slides.AfterAnimationType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class DataLabelCollection extends Java {
 	static private $_className = "com.aspose.slides.DataLabelCollection";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class GeometryShape extends Java {
-	static private $_className = "com.aspose.slides.GeometryShape";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -2558,6 +2706,18 @@ class Orientation extends Java {
 }
 class ControlCollection extends Java {
 	static private $_className = "com.aspose.slides.ControlCollection";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class LineSketchType extends Java {
+	const NotDefined = -1;
+	const None = 0;
+	const Curved = 1;
+	const Freehand = 2;
+	const Scribble = 3;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.LineSketchType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -2631,12 +2791,6 @@ class EffectStyleCollection extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ChartTitle extends Java {
-	static private $_className = "com.aspose.slides.ChartTitle";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class SourceFormat extends Java {
 	const Ppt = 0;
 	const Pptx = 1;
@@ -2647,33 +2801,8 @@ class SourceFormat extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ErrorBarType extends Java {
-	const Both = 0;
-	const Minus = 1;
-	const Plus = 2;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.ErrorBarType";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class Convert extends Java {
-	static private $_className = "com.aspose.slides.Convert";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-	static function autoByExtension(...$argv) {
-		return Java(self::$_className)->autoByExtension(...$argv);
-	}
-	static function toSvg(...$argv) {
-		return Java(self::$_className)->toSvg(...$argv);
-	}
-	static function toPdf(...$argv) {
-		return Java(self::$_className)->toPdf(...$argv);
-	}
-}
-class LegendEntryProperties extends Java {
-	static private $_className = "com.aspose.slides.LegendEntryProperties";
+class FontSubstRuleCollection extends Java {
+	static private $_className = "com.aspose.slides.FontSubstRuleCollection";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -2689,12 +2818,6 @@ class BubbleSizeRepresentationType extends Java {
 }
 class DataLabel extends Java {
 	static private $_className = "com.aspose.slides.DataLabel";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class Camera extends Java {
-	static private $_className = "com.aspose.slides.Camera";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -2807,14 +2930,24 @@ class ChartDataPoint extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ControlPropertiesCollection extends Java {
-	static private $_className = "com.aspose.slides.ControlPropertiesCollection";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class MasterSlideHeaderFooterManager extends Java {
-	static private $_className = "com.aspose.slides.MasterSlideHeaderFooterManager";
+class LoadFormat extends Java {
+	const Auto = 0;
+	const Ppt = 1;
+	const Pps = 2;
+	const Pptx = 3;
+	const Ppsx = 4;
+	const Odp = 5;
+	const Potx = 6;
+	const Pptm = 7;
+	const Ppsm = 8;
+	const Potm = 9;
+	const Otp = 10;
+	const Ppt95 = 11;
+	const Pot = 12;
+	const Fodp = 13;
+	const Unknown = 255;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.LoadFormat";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3027,8 +3160,33 @@ class ShapeType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class PPImage extends Java {
-	static private $_className = "com.aspose.slides.PPImage";
+class PptEditException extends Java {
+	static private $_className = "com.aspose.slides.PptEditException";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class TiffCompressionTypes extends Java {
+	const Default = 0;
+	const None = 1;
+	const CCITT3 = 2;
+	const CCITT4 = 3;
+	const LZW = 4;
+	const RLE = 5;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.TiffCompressionTypes";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class LegendPositionType extends Java {
+	const Bottom = 0;
+	const Left = 1;
+	const Right = 2;
+	const Top = 3;
+	const TopRight = 4;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.LegendPositionType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3073,12 +3231,6 @@ class SlidesRange extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class Marker extends Java {
-	static private $_className = "com.aspose.slides.Marker";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class HyperlinkQueries extends Java {
 	static private $_className = "com.aspose.slides.HyperlinkQueries";
 	function __construct(...$argv) {
@@ -3096,8 +3248,27 @@ class LineArrowheadWidth extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class MathematicalTextFactory extends Java {
-	static private $_className = "com.aspose.slides.MathematicalTextFactory";
+class ColorSchemeIndex extends Java {
+	const Dark1 = 0;
+	const Light1 = 1;
+	const Dark2 = 2;
+	const Light2 = 3;
+	const Accent1 = 4;
+	const Accent2 = 5;
+	const Accent3 = 6;
+	const Accent4 = 7;
+	const Accent5 = 8;
+	const Accent6 = 9;
+	const Hyperlink = 10;
+	const FollowedHyperlink = 11;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.ColorSchemeIndex";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class CommentAuthorCollection extends Java {
+	static private $_className = "com.aspose.slides.CommentAuthorCollection";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3176,14 +3347,17 @@ class CombinableSeriesTypesGroup extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ChartTextFormat extends Java {
-	static private $_className = "com.aspose.slides.ChartTextFormat";
+class VbaProjectFactory extends Java {
+	static private $_className = "com.aspose.slides.VbaProjectFactory";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
+	static function getInstance(...$argv) {
+		return Java(self::$_className)->getInstance(...$argv);
+	}
 }
-class MathParagraphFactory extends Java {
-	static private $_className = "com.aspose.slides.MathParagraphFactory";
+class SlideSize extends Java {
+	static private $_className = "com.aspose.slides.SlideSize";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3206,21 +3380,14 @@ class PresentationAnimationsGenerator extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class MathTopBotPositions extends Java {
-	const NotDefined = 0;
-	const Top = 1;
-	const Bottom = 2;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.MathTopBotPositions";
+class ChartDataWorkbook extends Java {
+	static private $_className = "com.aspose.slides.ChartDataWorkbook";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class EmbedFontCharacters extends Java {
-	const OnlyUsed = 0;
-	const All = 1;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.EmbedFontCharacters";
+class ConnectorLock extends Java {
+	static private $_className = "com.aspose.slides.ConnectorLock";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3263,14 +3430,20 @@ class EightDirectionTransition extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class CellFormat extends Java {
-	static private $_className = "com.aspose.slides.CellFormat";
+class ChartCategoryLevelsManager extends Java {
+	static private $_className = "com.aspose.slides.ChartCategoryLevelsManager";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class CommonSlideViewProperties extends Java {
-	static private $_className = "com.aspose.slides.CommonSlideViewProperties";
+class DataSourceTypeForErrorBarsCustomValues extends Java {
+	static private $_className = "com.aspose.slides.DataSourceTypeForErrorBarsCustomValues";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class SmartArtNodeCollection extends Java {
+	static private $_className = "com.aspose.slides.SmartArtNodeCollection";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3292,18 +3465,6 @@ class SVGOptions extends Java {
 }
 class MathRadicalFactory extends Java {
 	static private $_className = "com.aspose.slides.MathRadicalFactory";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class Reflection extends Java {
-	static private $_className = "com.aspose.slides.Reflection";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class Connector extends Java {
-	static private $_className = "com.aspose.slides.Connector";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3336,39 +3497,24 @@ class PdfTextCompression extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class TransitionSoundMode extends Java {
+	const NotDefined = -1;
+	const StartSound = 0;
+	const StopPrevoiusSound = 1;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.TransitionSoundMode";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class SvgImage extends Java {
 	static private $_className = "com.aspose.slides.SvgImage";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class MathRadical extends Java {
-	static private $_className = "com.aspose.slides.MathRadical";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class ChartSeriesGroup extends Java {
 	static private $_className = "com.aspose.slides.ChartSeriesGroup";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class ColorSchemeIndex extends Java {
-	const Dark1 = 0;
-	const Light1 = 1;
-	const Dark2 = 2;
-	const Light2 = 3;
-	const Accent1 = 4;
-	const Accent2 = 5;
-	const Accent3 = 6;
-	const Accent4 = 7;
-	const Accent5 = 8;
-	const Accent6 = 9;
-	const Hyperlink = 10;
-	const FollowedHyperlink = 11;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.ColorSchemeIndex";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3391,36 +3537,42 @@ class ForEach_ extends Java {
 	static function masterSlide(...$argv) {
 		return Java(self::$_className)->masterSlide(...$argv);
 	}
+	static function slide(...$argv) {
+		return Java(self::$_className)->slide(...$argv);
+	}
 	static function shape(...$argv) {
 		return Java(self::$_className)->shape(...$argv);
-	}
-	static function layoutSlide(...$argv) {
-		return Java(self::$_className)->layoutSlide(...$argv);
 	}
 	static function paragraph(...$argv) {
 		return Java(self::$_className)->paragraph(...$argv);
 	}
-	static function slide(...$argv) {
-		return Java(self::$_className)->slide(...$argv);
-	}
 	static function portion(...$argv) {
 		return Java(self::$_className)->portion(...$argv);
 	}
+	static function layoutSlide(...$argv) {
+		return Java(self::$_className)->layoutSlide(...$argv);
+	}
 }
-class DoubleChartValue extends Java {
-	static private $_className = "com.aspose.slides.DoubleChartValue";
+class PptException extends Java {
+	static private $_className = "com.aspose.slides.PptException";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class AdjustValueCollection extends Java {
-	static private $_className = "com.aspose.slides.AdjustValueCollection";
+class OleEmbeddedDataInfo extends Java {
+	static private $_className = "com.aspose.slides.OleEmbeddedDataInfo";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class BaseChartValue extends Java {
 	static private $_className = "com.aspose.slides.BaseChartValue";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class GeometryPath extends Java {
+	static private $_className = "com.aspose.slides.GeometryPath";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3454,12 +3606,6 @@ class SmartArtQuickStyleType extends Java {
 	const BirdsEyeScene = 13;
 	const EnumSeparatorCharArray = ",";
 	static private $_className = "com.aspose.slides.SmartArtQuickStyleType";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class ImageCollection extends Java {
-	static private $_className = "com.aspose.slides.ImageCollection";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3517,6 +3663,22 @@ class GlitterTransition extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class MathTopBotPositions extends Java {
+	const NotDefined = 0;
+	const Top = 1;
+	const Bottom = 2;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.MathTopBotPositions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class PptUnsupportedFormatException extends Java {
+	static private $_className = "com.aspose.slides.PptUnsupportedFormatException";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class MathVerticalAlignment extends Java {
 	const NotDefined = 0;
 	const Top = 1;
@@ -3526,18 +3688,6 @@ class MathVerticalAlignment extends Java {
 	static private $_className = "com.aspose.slides.MathVerticalAlignment";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class CurrentThreadSettings extends Java {
-	static private $_className = "com.aspose.slides.CurrentThreadSettings";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-	static function setLocale(...$argv) {
-		return Java(self::$_className)->setLocale(...$argv);
-	}
-	static function getLocale(...$argv) {
-		return Java(self::$_className)->getLocale(...$argv);
 	}
 }
 class MaterialPresetType extends Java {
@@ -3573,8 +3723,11 @@ class TransitionMorphType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class OleEmbeddedDataInfo extends Java {
-	static private $_className = "com.aspose.slides.OleEmbeddedDataInfo";
+class TransitionShredPattern extends Java {
+	const Strip = 0;
+	const Rectangle = 1;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.TransitionShredPattern";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3625,17 +3778,8 @@ class FontSubstCondition extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class SlideHeaderFooterManager extends Java {
-	static private $_className = "com.aspose.slides.SlideHeaderFooterManager";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class TextExtractionArrangingMode extends Java {
-	const Unarranged = 0;
-	const Arranged = 1;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.TextExtractionArrangingMode";
+class WheelTransition extends Java {
+	static private $_className = "com.aspose.slides.WheelTransition";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3656,12 +3800,6 @@ class MotionPathPointsType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ImageTransformOperation extends Java {
-	static private $_className = "com.aspose.slides.ImageTransformOperation";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class LineJoinStyle extends Java {
 	const NotDefined = -1;
 	const Round = 0;
@@ -3669,6 +3807,12 @@ class LineJoinStyle extends Java {
 	const Miter = 2;
 	const EnumSeparatorCharArray = ",";
 	static private $_className = "com.aspose.slides.LineJoinStyle";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class Presentation extends Java {
+	static private $_className = "com.aspose.slides.Presentation";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3685,18 +3829,14 @@ class BrowsedAtKiosk extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ColorEffect extends Java {
-	static private $_className = "com.aspose.slides.ColorEffect";
+class SvgShape extends Java {
+	static private $_className = "com.aspose.slides.SvgShape";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class TransitionSoundMode extends Java {
-	const NotDefined = -1;
-	const StartSound = 0;
-	const StopPrevoiusSound = 1;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.TransitionSoundMode";
+class ColorEffect extends Java {
+	static private $_className = "com.aspose.slides.ColorEffect";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3737,17 +3877,23 @@ class FontsLoader extends Java {
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
+	static function clearCache(...$argv) {
+		return Java(self::$_className)->clearCache(...$argv);
+	}
 	static function getFontFolders(...$argv) {
 		return Java(self::$_className)->getFontFolders(...$argv);
 	}
-	static function clearCache(...$argv) {
-		return Java(self::$_className)->clearCache(...$argv);
+	static function loadExternalFonts(...$argv) {
+		return Java(self::$_className)->loadExternalFonts(...$argv);
 	}
 	static function loadExternalFont(...$argv) {
 		return Java(self::$_className)->loadExternalFont(...$argv);
 	}
-	static function loadExternalFonts(...$argv) {
-		return Java(self::$_className)->loadExternalFonts(...$argv);
+}
+class MathBorderBoxFactory extends Java {
+	static private $_className = "com.aspose.slides.MathBorderBoxFactory";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class DataTable extends Java {
@@ -3764,12 +3910,6 @@ class Paragraph extends Java {
 }
 class EmbedAllFontsHtmlController extends Java {
 	static private $_className = "com.aspose.slides.EmbedAllFontsHtmlController";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class VbaProject extends Java {
-	static private $_className = "com.aspose.slides.VbaProject";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3796,14 +3936,19 @@ class MasterTheme extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class GradientStopCollectionEffectiveData extends Java {
-	static private $_className = "com.aspose.slides.GradientStopCollectionEffectiveData";
+class MasterNotesSlide extends Java {
+	static private $_className = "com.aspose.slides.MasterNotesSlide";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class MasterNotesSlide extends Java {
-	static private $_className = "com.aspose.slides.MasterNotesSlide";
+class PictureType extends Java {
+	const NotDefined = -1;
+	const Stack = 0;
+	const StackScale = 1;
+	const Stretch = 2;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.PictureType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3819,14 +3964,20 @@ class TextVerticalOverflowType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class FontSubstRuleCollection extends Java {
-	static private $_className = "com.aspose.slides.FontSubstRuleCollection";
+class LineFormatCollection extends Java {
+	static private $_className = "com.aspose.slides.LineFormatCollection";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class LineFormatCollection extends Java {
-	static private $_className = "com.aspose.slides.LineFormatCollection";
+class MathSpacingRules extends Java {
+	const SingleSpacingGap = 0;
+	const OneAndHalfSpacingGap = 1;
+	const DoubleSpacingGap = 2;
+	const Exactly = 3;
+	const Multiple = 4;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.MathSpacingRules";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3858,6 +4009,12 @@ class PptxCorruptFileException extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class ProtectionManager extends Java {
+	static private $_className = "com.aspose.slides.ProtectionManager";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class TextFrame extends Java {
 	static private $_className = "com.aspose.slides.TextFrame";
 	function __construct(...$argv) {
@@ -3876,17 +4033,8 @@ class CommentAuthor extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class PointCollection extends Java {
-	static private $_className = "com.aspose.slides.PointCollection";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class PictureFillMode extends Java {
-	const Tile = 0;
-	const Stretch = 1;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.PictureFillMode";
+class VbaReferenceOleTypeLib extends Java {
+	static private $_className = "com.aspose.slides.VbaReferenceOleTypeLib";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3933,12 +4081,6 @@ class BehaviorAdditiveType extends Java {
 }
 class LineFormat extends Java {
 	static private $_className = "com.aspose.slides.LineFormat";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class ChartCategoryLevelsManager extends Java {
-	static private $_className = "com.aspose.slides.ChartCategoryLevelsManager";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -4119,21 +4261,29 @@ class ViewType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class Row extends Java {
-	static private $_className = "com.aspose.slides.Row";
+class ChartDataWorksheet extends Java {
+	static private $_className = "com.aspose.slides.ChartDataWorksheet";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class TrendlineType extends Java {
-	const Exponential = 0;
-	const Linear = 1;
-	const Logarithmic = 2;
-	const MovingAverage = 3;
-	const Polynomial = 4;
-	const Power = 5;
+class BehaviorCollection extends Java {
+	static private $_className = "com.aspose.slides.BehaviorCollection";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class TabCollection extends Java {
+	static private $_className = "com.aspose.slides.TabCollection";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ZoomImageType extends Java {
+	const Preview = 1;
+	const Cover = 2;
 	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.TrendlineType";
+	static private $_className = "com.aspose.slides.ZoomImageType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -4149,8 +4299,8 @@ class FilterEffectRevealType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ChartDataWorksheet extends Java {
-	static private $_className = "com.aspose.slides.ChartDataWorksheet";
+class LayoutSlideThemeManager extends Java {
+	static private $_className = "com.aspose.slides.LayoutSlideThemeManager";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -4250,20 +4400,25 @@ class ChartType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class BiLevel extends Java {
-	static private $_className = "com.aspose.slides.BiLevel";
+class TransitionEightDirectionType extends Java {
+	const LeftDown = 0;
+	const LeftUp = 1;
+	const RightDown = 2;
+	const RightUp = 3;
+	const Left = 4;
+	const Up = 5;
+	const Down = 6;
+	const Right = 7;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.TransitionEightDirectionType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class AudioCollection extends Java {
-	static private $_className = "com.aspose.slides.AudioCollection";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class TabCollection extends Java {
-	static private $_className = "com.aspose.slides.TabCollection";
+class ColorStringFormat extends Java {
+	const Vml = 0;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.ColorStringFormat";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -4274,14 +4429,8 @@ class ZoomObject extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class LineSketchType extends Java {
-	const NotDefined = -1;
-	const None = 0;
-	const Curved = 1;
-	const Freehand = 2;
-	const Scribble = 3;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.LineSketchType";
+class OuterShadow extends Java {
+	static private $_className = "com.aspose.slides.OuterShadow";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -4301,14 +4450,19 @@ class ZoomLayout extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ImageTransformOCollectionEffectiveData extends Java {
-	static private $_className = "com.aspose.slides.ImageTransformOCollectionEffectiveData";
+class TextCapType extends Java {
+	const NotDefined = -1;
+	const None = 0;
+	const Small = 1;
+	const All = 2;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.TextCapType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class MotionEffect extends Java {
-	static private $_className = "com.aspose.slides.MotionEffect";
+class ImageTransformOCollectionEffectiveData extends Java {
+	static private $_className = "com.aspose.slides.ImageTransformOCollectionEffectiveData";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -4319,20 +4473,34 @@ class NotesSlide extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class MathSubscriptElementFactory extends Java {
-	static private $_className = "com.aspose.slides.MathSubscriptElementFactory";
+class ErrorBarType extends Java {
+	const Both = 0;
+	const Minus = 1;
+	const Plus = 2;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.ErrorBarType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ChartCategoryCollection extends Java {
-	static private $_className = "com.aspose.slides.ChartCategoryCollection";
+class EffectTriggerType extends Java {
+	const AfterPrevious = 0;
+	const OnClick = 1;
+	const WithPrevious = 2;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.EffectTriggerType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class ViewProperties extends Java {
 	static private $_className = "com.aspose.slides.ViewProperties";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class SlideHeaderFooterManager extends Java {
+	static private $_className = "com.aspose.slides.SlideHeaderFooterManager";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -4360,11 +4528,11 @@ class HtmlFormatter extends Java {
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
-	static function createSlideShowFormatter(...$argv) {
-		return Java(self::$_className)->createSlideShowFormatter(...$argv);
-	}
 	static function createCustomFormatter(...$argv) {
 		return Java(self::$_className)->createCustomFormatter(...$argv);
+	}
+	static function createSlideShowFormatter(...$argv) {
+		return Java(self::$_className)->createSlideShowFormatter(...$argv);
 	}
 	static function createDocumentFormatter(...$argv) {
 		return Java(self::$_className)->createDocumentFormatter(...$argv);
@@ -4397,8 +4565,14 @@ class GlobalLayoutSlideCollection extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class PresentationHeaderFooterManager extends Java {
-	static private $_className = "com.aspose.slides.PresentationHeaderFooterManager";
+class ErrorBarValueType extends Java {
+	const Custom = 0;
+	const Fixed = 1;
+	const Percentage = 2;
+	const StandardDeviation = 3;
+	const StandardError = 4;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.ErrorBarValueType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -4415,14 +4589,14 @@ class MasterHandoutSlideHeaderFooterManager extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class PatternFormat extends Java {
-	static private $_className = "com.aspose.slides.PatternFormat";
+class Luminance extends Java {
+	static private $_className = "com.aspose.slides.Luminance";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class PortionFactory extends Java {
-	static private $_className = "com.aspose.slides.PortionFactory";
+class PatternFormat extends Java {
+	static private $_className = "com.aspose.slides.PatternFormat";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -4433,31 +4607,22 @@ class PptxEditException extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class FontSources extends Java {
-	static private $_className = "com.aspose.slides.FontSources";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class AxesManager extends Java {
 	static private $_className = "com.aspose.slides.AxesManager";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class TransitionEightDirectionType extends Java {
-	const LeftDown = 0;
-	const LeftUp = 1;
-	const RightDown = 2;
-	const RightUp = 3;
-	const Left = 4;
-	const Up = 5;
-	const Down = 6;
-	const Right = 7;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.TransitionEightDirectionType";
+class CurrentThreadSettings extends Java {
+	static private $_className = "com.aspose.slides.CurrentThreadSettings";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
+	}
+	static function setLocale(...$argv) {
+		return Java(self::$_className)->setLocale(...$argv);
+	}
+	static function getLocale(...$argv) {
+		return Java(self::$_className)->getLocale(...$argv);
 	}
 }
 class ResourceLoadingAction extends Java {
@@ -4476,14 +4641,8 @@ class Duotone extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ThreeDFormat extends Java {
-	static private $_className = "com.aspose.slides.ThreeDFormat";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class ColorOperationCollection extends Java {
-	static private $_className = "com.aspose.slides.ColorOperationCollection";
+class PresetShadow extends Java {
+	static private $_className = "com.aspose.slides.PresetShadow";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -4519,14 +4678,8 @@ class NullableBool extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class LegendPositionType extends Java {
-	const Bottom = 0;
-	const Left = 1;
-	const Right = 2;
-	const Top = 3;
-	const TopRight = 4;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.LegendPositionType";
+class PresentationHeaderFooterManager extends Java {
+	static private $_className = "com.aspose.slides.PresentationHeaderFooterManager";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -4549,20 +4702,20 @@ class PresentedBySpeaker extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class NotesSlideManager extends Java {
-	static private $_className = "com.aspose.slides.NotesSlideManager";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class LegendEntryCollection extends Java {
-	static private $_className = "com.aspose.slides.LegendEntryCollection";
+class OOXMLException extends Java {
+	static private $_className = "com.aspose.slides.OOXMLException";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class Section extends Java {
 	static private $_className = "com.aspose.slides.Section";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ChartDataWorksheetCollection extends Java {
+	static private $_className = "com.aspose.slides.ChartDataWorksheetCollection";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -4729,6 +4882,12 @@ class EffectType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class MathBarFactory extends Java {
+	static private $_className = "com.aspose.slides.MathBarFactory";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class Fonts extends Java {
 	static private $_className = "com.aspose.slides.Fonts";
 	function __construct(...$argv) {
@@ -4769,6 +4928,12 @@ class TextUnderlineType extends Java {
 	const DoubleWavy = 17;
 	const EnumSeparatorCharArray = ",";
 	static private $_className = "com.aspose.slides.TextUnderlineType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ChartTextFormat extends Java {
+	static private $_className = "com.aspose.slides.ChartTextFormat";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -4819,12 +4984,6 @@ class OrganizationChartLayoutType extends Java {
 }
 class MathSubscriptElement extends Java {
 	static private $_className = "com.aspose.slides.MathSubscriptElement";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class PptUnsupportedFormatException extends Java {
-	static private $_className = "com.aspose.slides.PptUnsupportedFormatException";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -4903,8 +5062,36 @@ class StyleType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class Marker extends Java {
+	static private $_className = "com.aspose.slides.Marker";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ColorChange extends Java {
+	static private $_className = "com.aspose.slides.ColorChange";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class PictureFrameLock extends Java {
 	static private $_className = "com.aspose.slides.PictureFrameLock";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class SvgCoordinateUnit extends Java {
+	const Inch = 0;
+	const Centimeter = 1;
+	const Millimeter = 2;
+	const Point = 3;
+	const Pica = 4;
+	const Em = 5;
+	const Ex = 6;
+	const Pixel = 7;
+	const Percent = 8;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.SvgCoordinateUnit";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -4927,8 +5114,8 @@ class Blur extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class BaseSlide extends Java {
-	static private $_className = "com.aspose.slides.BaseSlide";
+class PictureFrame extends Java {
+	static private $_className = "com.aspose.slides.PictureFrame";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -4948,290 +5135,80 @@ class BehaviorProperty extends Java {
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
-	static function getFillType(...$argv) {
-		return Java(self::$_className)->getFillType(...$argv);
-	}
-	static function getShadowColor(...$argv) {
-		return Java(self::$_className)->getShadowColor(...$argv);
-	}
-	static function getImage(...$argv) {
-		return Java(self::$_className)->getImage(...$argv);
+	static function getR(...$argv) {
+		return Java(self::$_className)->getR(...$argv);
 	}
 	static function getStyleColor(...$argv) {
 		return Java(self::$_className)->getStyleColor(...$argv);
 	}
-	static function getR(...$argv) {
-		return Java(self::$_className)->getR(...$argv);
-	}
-	static function getShadowMatrixXtoX(...$argv) {
-		return Java(self::$_className)->getShadowMatrixXtoX(...$argv);
-	}
-	static function getStyleTextEffectOutline(...$argv) {
-		return Java(self::$_className)->getStyleTextEffectOutline(...$argv);
-	}
-	static function getStrokeFillType(...$argv) {
-		return Java(self::$_className)->getStrokeFillType(...$argv);
-	}
-	static function getShadowMatrixXtoY(...$argv) {
-		return Java(self::$_className)->getShadowMatrixXtoY(...$argv);
-	}
-	static function getStyleSRotation(...$argv) {
-		return Java(self::$_className)->getStyleSRotation(...$argv);
-	}
-	static function getOrCreateByValue(...$argv) {
-		return Java(self::$_className)->getOrCreateByValue(...$argv);
-	}
-	static function getShadowOffset2X(...$argv) {
-		return Java(self::$_className)->getShadowOffset2X(...$argv);
-	}
-	static function getStrokeEndArrow(...$argv) {
-		return Java(self::$_className)->getStrokeEndArrow(...$argv);
-	}
-	static function getStrokeLineStyle(...$argv) {
-		return Java(self::$_className)->getStrokeLineStyle(...$argv);
-	}
-	static function getImageDataGrayscale(...$argv) {
-		return Java(self::$_className)->getImageDataGrayscale(...$argv);
-	}
-	static function getImageDataCropBottom(...$argv) {
-		return Java(self::$_className)->getImageDataCropBottom(...$argv);
-	}
-	static function getStrokeEndArrowLength(...$argv) {
-		return Java(self::$_className)->getStrokeEndArrowLength(...$argv);
-	}
-	static function getStyleTextDecorationUnderline(...$argv) {
-		return Java(self::$_className)->getStyleTextDecorationUnderline(...$argv);
-	}
-	static function getStrokeStartArrow(...$argv) {
-		return Java(self::$_className)->getStrokeStartArrow(...$argv);
-	}
-	static function getShadowOffset2Y(...$argv) {
-		return Java(self::$_className)->getShadowOffset2Y(...$argv);
-	}
-	static function getStrokeImageSizeY(...$argv) {
-		return Java(self::$_className)->getStrokeImageSizeY(...$argv);
-	}
-	static function getStyleFontWeight(...$argv) {
-		return Java(self::$_className)->getStyleFontWeight(...$argv);
-	}
-	static function getImageDataGamma(...$argv) {
-		return Java(self::$_className)->getImageDataGamma(...$argv);
-	}
-	static function getStrokeDashStyle(...$argv) {
-		return Java(self::$_className)->getStrokeDashStyle(...$argv);
-	}
-	static function getSkewMatrixYtoY(...$argv) {
-		return Java(self::$_className)->getSkewMatrixYtoY(...$argv);
-	}
-	static function getImageDataCropRight(...$argv) {
-		return Java(self::$_className)->getImageDataCropRight(...$argv);
-	}
-	static function getStrokeEndArrowWidth(...$argv) {
-		return Java(self::$_className)->getStrokeEndArrowWidth(...$argv);
-	}
-	static function getStyleVisibility(...$argv) {
-		return Java(self::$_className)->getStyleVisibility(...$argv);
-	}
-	static function getStrokeImageSizeX(...$argv) {
-		return Java(self::$_className)->getStrokeImageSizeX(...$argv);
-	}
-	static function getSkewMatrixXtoX(...$argv) {
-		return Java(self::$_className)->getSkewMatrixXtoX(...$argv);
-	}
-	static function getImageDataCropTop(...$argv) {
-		return Java(self::$_className)->getImageDataCropTop(...$argv);
-	}
-	static function getStyleFontStyle(...$argv) {
-		return Java(self::$_className)->getStyleFontStyle(...$argv);
-	}
-	static function getStyleTextEffectEmboss(...$argv) {
-		return Java(self::$_className)->getStyleTextEffectEmboss(...$argv);
-	}
-	static function getShadowMatrixYtoY(...$argv) {
-		return Java(self::$_className)->getShadowMatrixYtoY(...$argv);
-	}
-	static function getStrokeStartArrowWidth(...$argv) {
-		return Java(self::$_className)->getStrokeStartArrowWidth(...$argv);
-	}
-	static function getShadowMatrixPerspectiveX(...$argv) {
-		return Java(self::$_className)->getShadowMatrixPerspectiveX(...$argv);
-	}
-	static function getSkewMatrixPerspectiveX(...$argv) {
-		return Java(self::$_className)->getSkewMatrixPerspectiveX(...$argv);
-	}
-	static function getImageDataChromakey(...$argv) {
-		return Java(self::$_className)->getImageDataChromakey(...$argv);
-	}
-	static function getImageDataCropLeft(...$argv) {
-		return Java(self::$_className)->getImageDataCropLeft(...$argv);
-	}
-	static function getSkewMatrixXtoY(...$argv) {
-		return Java(self::$_className)->getSkewMatrixXtoY(...$argv);
-	}
-	static function getSkewMatrixYtoX(...$argv) {
-		return Java(self::$_className)->getSkewMatrixYtoX(...$argv);
-	}
-	static function getStrokeStartArrowLength(...$argv) {
-		return Java(self::$_className)->getStrokeStartArrowLength(...$argv);
-	}
-	static function getStyleFontFamily(...$argv) {
-		return Java(self::$_className)->getStyleFontFamily(...$argv);
-	}
-	static function getStyleTextShadow(...$argv) {
-		return Java(self::$_className)->getStyleTextShadow(...$argv);
-	}
-	static function getStyleTextTransform(...$argv) {
-		return Java(self::$_className)->getStyleTextTransform(...$argv);
-	}
-	static function getShadowMatrixPerspectiveY(...$argv) {
-		return Java(self::$_className)->getShadowMatrixPerspectiveY(...$argv);
-	}
-	static function getSkewMatrixPerspectiveY(...$argv) {
-		return Java(self::$_className)->getSkewMatrixPerspectiveY(...$argv);
-	}
-	static function getShadowMatrixYtoX(...$argv) {
-		return Java(self::$_className)->getShadowMatrixYtoX(...$argv);
-	}
-	static function getExtrusionColor(...$argv) {
-		return Java(self::$_className)->getExtrusionColor(...$argv);
-	}
-	static function getExtrusionColorMode(...$argv) {
-		return Java(self::$_className)->getExtrusionColorMode(...$argv);
-	}
-	static function getExtrusionForeDepth(...$argv) {
-		return Java(self::$_className)->getExtrusionForeDepth(...$argv);
-	}
-	static function getExtrusionLockRotationCenter(...$argv) {
-		return Java(self::$_className)->getExtrusionLockRotationCenter(...$argv);
-	}
-	static function getExtrusionOrientationAngle(...$argv) {
-		return Java(self::$_className)->getExtrusionOrientationAngle(...$argv);
-	}
-	static function getExtrusionOrientationX(...$argv) {
-		return Java(self::$_className)->getExtrusionOrientationX(...$argv);
-	}
-	static function getExtrusionBackDepth(...$argv) {
-		return Java(self::$_className)->getExtrusionBackDepth(...$argv);
-	}
-	static function getExtrusionOrientationZ(...$argv) {
-		return Java(self::$_className)->getExtrusionOrientationZ(...$argv);
-	}
-	static function getExtrusionOrientationY(...$argv) {
-		return Java(self::$_className)->getExtrusionOrientationY(...$argv);
-	}
-	static function getExtrusionAutoRotationCenter(...$argv) {
-		return Java(self::$_className)->getExtrusionAutoRotationCenter(...$argv);
-	}
-	static function getFillFocusSizeX(...$argv) {
-		return Java(self::$_className)->getFillFocusSizeX(...$argv);
-	}
-	static function getImageDataBlacklevel(...$argv) {
-		return Java(self::$_className)->getImageDataBlacklevel(...$argv);
-	}
-	static function getExtrusionRender(...$argv) {
-		return Java(self::$_className)->getExtrusionRender(...$argv);
-	}
-	static function getExtrusionRotationCenterY(...$argv) {
-		return Java(self::$_className)->getExtrusionRotationCenterY(...$argv);
-	}
-	static function getExtrusionViewPointX(...$argv) {
-		return Java(self::$_className)->getExtrusionViewPointX(...$argv);
-	}
-	static function getFillFocusPositionX(...$argv) {
-		return Java(self::$_className)->getFillFocusPositionX(...$argv);
-	}
-	static function getExtrusionSkewAmt(...$argv) {
-		return Java(self::$_className)->getExtrusionSkewAmt(...$argv);
-	}
-	static function getExtrusionPlane(...$argv) {
-		return Java(self::$_className)->getExtrusionPlane(...$argv);
-	}
-	static function getExtrusionRotationCenterZ(...$argv) {
-		return Java(self::$_className)->getExtrusionRotationCenterZ(...$argv);
-	}
-	static function getExtrusionRotationCenterX(...$argv) {
-		return Java(self::$_className)->getExtrusionRotationCenterX(...$argv);
-	}
-	static function getExtrusionRotationAngleX(...$argv) {
-		return Java(self::$_className)->getExtrusionRotationAngleX(...$argv);
-	}
-	static function getExtrusionRotationAngleY(...$argv) {
-		return Java(self::$_className)->getExtrusionRotationAngleY(...$argv);
-	}
-	static function getExtrusionViewPointY(...$argv) {
-		return Java(self::$_className)->getExtrusionViewPointY(...$argv);
-	}
-	static function getFillFocusPositionY(...$argv) {
-		return Java(self::$_className)->getFillFocusPositionY(...$argv);
-	}
-	static function getFillFocusSizeY(...$argv) {
-		return Java(self::$_className)->getFillFocusSizeY(...$argv);
-	}
-	static function getExtrusionSkewAngle(...$argv) {
-		return Java(self::$_className)->getExtrusionSkewAngle(...$argv);
-	}
-	static function getExtrusionViewPointOriginX(...$argv) {
-		return Java(self::$_className)->getExtrusionViewPointOriginX(...$argv);
-	}
-	static function getExtrusionViewPointOriginY(...$argv) {
-		return Java(self::$_className)->getExtrusionViewPointOriginY(...$argv);
-	}
-	static function getExtrusionViewPointZ(...$argv) {
-		return Java(self::$_className)->getExtrusionViewPointZ(...$argv);
-	}
-	static function getStyleTextDecorationLineThrough(...$argv) {
-		return Java(self::$_className)->getStyleTextDecorationLineThrough(...$argv);
+	static function getImage(...$argv) {
+		return Java(self::$_className)->getImage(...$argv);
+	}
+	static function getFillType(...$argv) {
+		return Java(self::$_className)->getFillType(...$argv);
 	}
 	static function getExtrusionOn(...$argv) {
 		return Java(self::$_className)->getExtrusionOn(...$argv);
 	}
-	static function getExtrusionType(...$argv) {
-		return Java(self::$_className)->getExtrusionType(...$argv);
-	}
-	static function getStrokeColor(...$argv) {
-		return Java(self::$_className)->getStrokeColor(...$argv);
-	}
-	static function getStrokeWeight(...$argv) {
-		return Java(self::$_className)->getStrokeWeight(...$argv);
-	}
-	static function getYShear(...$argv) {
-		return Java(self::$_className)->getYShear(...$argv);
-	}
-	static function getFillOn(...$argv) {
-		return Java(self::$_className)->getFillOn(...$argv);
-	}
-	static function getScaleY(...$argv) {
-		return Java(self::$_className)->getScaleY(...$argv);
-	}
-	static function getSkewOffsetY(...$argv) {
-		return Java(self::$_className)->getSkewOffsetY(...$argv);
-	}
-	static function getStyleFontSize(...$argv) {
-		return Java(self::$_className)->getStyleFontSize(...$argv);
-	}
-	static function getSkewOffsetX(...$argv) {
-		return Java(self::$_className)->getSkewOffsetX(...$argv);
-	}
-	static function getStyleRotation(...$argv) {
-		return Java(self::$_className)->getStyleRotation(...$argv);
+	static function getFillFocus(...$argv) {
+		return Java(self::$_className)->getFillFocus(...$argv);
 	}
 	static function getFillMethod(...$argv) {
 		return Java(self::$_className)->getFillMethod(...$argv);
 	}
-	static function getPptR(...$argv) {
-		return Java(self::$_className)->getPptR(...$argv);
+	static function getFillOn(...$argv) {
+		return Java(self::$_className)->getFillOn(...$argv);
 	}
-	static function getFillOpacity(...$argv) {
-		return Java(self::$_className)->getFillOpacity(...$argv);
+	static function getExtrusionType(...$argv) {
+		return Java(self::$_className)->getExtrusionType(...$argv);
 	}
-	static function getShadowOriginY(...$argv) {
-		return Java(self::$_className)->getShadowOriginY(...$argv);
+	static function getFillAngle(...$argv) {
+		return Java(self::$_className)->getFillAngle(...$argv);
 	}
 	static function getFillColor(...$argv) {
 		return Java(self::$_className)->getFillColor(...$argv);
 	}
-	static function getFillAngle(...$argv) {
-		return Java(self::$_className)->getFillAngle(...$argv);
+	static function getFillColor2(...$argv) {
+		return Java(self::$_className)->getFillColor2(...$argv);
+	}
+	static function getPptY(...$argv) {
+		return Java(self::$_className)->getPptY(...$argv);
+	}
+	static function getStyleFontSize(...$argv) {
+		return Java(self::$_className)->getStyleFontSize(...$argv);
+	}
+	static function getStrokeColor(...$argv) {
+		return Java(self::$_className)->getStrokeColor(...$argv);
+	}
+	static function getPptH(...$argv) {
+		return Java(self::$_className)->getPptH(...$argv);
+	}
+	static function getShadowColor2(...$argv) {
+		return Java(self::$_className)->getShadowColor2(...$argv);
+	}
+	static function getShadowOpacity(...$argv) {
+		return Java(self::$_className)->getShadowOpacity(...$argv);
+	}
+	static function getSkewOriginX(...$argv) {
+		return Java(self::$_className)->getSkewOriginX(...$argv);
+	}
+	static function getPptC(...$argv) {
+		return Java(self::$_className)->getPptC(...$argv);
+	}
+	static function getStyleRotation(...$argv) {
+		return Java(self::$_className)->getStyleRotation(...$argv);
+	}
+	static function getSkewOffsetY(...$argv) {
+		return Java(self::$_className)->getSkewOffsetY(...$argv);
+	}
+	static function getPptX(...$argv) {
+		return Java(self::$_className)->getPptX(...$argv);
+	}
+	static function getScaleX(...$argv) {
+		return Java(self::$_className)->getScaleX(...$argv);
+	}
+	static function getStrokeSrc(...$argv) {
+		return Java(self::$_className)->getStrokeSrc(...$argv);
 	}
 	static function getStrokeOpacity(...$argv) {
 		return Java(self::$_className)->getStrokeOpacity(...$argv);
@@ -5239,86 +5216,290 @@ class BehaviorProperty extends Java {
 	static function getFill_Color(...$argv) {
 		return Java(self::$_className)->getFill_Color(...$argv);
 	}
-	static function getShadowType(...$argv) {
-		return Java(self::$_className)->getShadowType(...$argv);
-	}
-	static function getSkewOriginX(...$argv) {
-		return Java(self::$_className)->getSkewOriginX(...$argv);
-	}
-	static function getPptX(...$argv) {
-		return Java(self::$_className)->getPptX(...$argv);
-	}
-	static function getShadowOpacity(...$argv) {
-		return Java(self::$_className)->getShadowOpacity(...$argv);
-	}
-	static function getPptY(...$argv) {
-		return Java(self::$_className)->getPptY(...$argv);
-	}
-	static function getPptC(...$argv) {
-		return Java(self::$_className)->getPptC(...$argv);
-	}
-	static function getScaleX(...$argv) {
-		return Java(self::$_className)->getScaleX(...$argv);
-	}
-	static function getFillColor2(...$argv) {
-		return Java(self::$_className)->getFillColor2(...$argv);
+	static function getShadowOffsetX(...$argv) {
+		return Java(self::$_className)->getShadowOffsetX(...$argv);
 	}
 	static function getSkewOn(...$argv) {
 		return Java(self::$_className)->getSkewOn(...$argv);
 	}
-	static function getSkewOriginY(...$argv) {
-		return Java(self::$_className)->getSkewOriginY(...$argv);
-	}
-	static function getFillFocus(...$argv) {
-		return Java(self::$_className)->getFillFocus(...$argv);
-	}
-	static function getShadowColor2(...$argv) {
-		return Java(self::$_className)->getShadowColor2(...$argv);
-	}
-	static function getStrokeColor2(...$argv) {
-		return Java(self::$_className)->getStrokeColor2(...$argv);
-	}
-	static function getPptH(...$argv) {
-		return Java(self::$_className)->getPptH(...$argv);
-	}
-	static function getShadowOffsetX(...$argv) {
-		return Java(self::$_className)->getShadowOffsetX(...$argv);
-	}
-	static function getStrokeSrc(...$argv) {
-		return Java(self::$_className)->getStrokeSrc(...$argv);
-	}
-	static function getStyleOpacity(...$argv) {
-		return Java(self::$_className)->getStyleOpacity(...$argv);
-	}
-	static function getPptW(...$argv) {
-		return Java(self::$_className)->getPptW(...$argv);
-	}
-	static function getShadowOffsetY(...$argv) {
-		return Java(self::$_className)->getShadowOffsetY(...$argv);
-	}
 	static function getXShear(...$argv) {
 		return Java(self::$_className)->getXShear(...$argv);
-	}
-	static function getFillOpacity2(...$argv) {
-		return Java(self::$_className)->getFillOpacity2(...$argv);
 	}
 	static function getShadowOn(...$argv) {
 		return Java(self::$_className)->getShadowOn(...$argv);
 	}
-	static function getImageDataGain(...$argv) {
-		return Java(self::$_className)->getImageDataGain(...$argv);
+	static function getSkewOriginY(...$argv) {
+		return Java(self::$_className)->getSkewOriginY(...$argv);
 	}
-	static function getStrokeOn(...$argv) {
-		return Java(self::$_className)->getStrokeOn(...$argv);
+	static function getShadowOffsetY(...$argv) {
+		return Java(self::$_className)->getShadowOffsetY(...$argv);
+	}
+	static function getStrokeWeight(...$argv) {
+		return Java(self::$_className)->getStrokeWeight(...$argv);
+	}
+	static function getStyleOpacity(...$argv) {
+		return Java(self::$_className)->getStyleOpacity(...$argv);
+	}
+	static function getSkewOffsetX(...$argv) {
+		return Java(self::$_className)->getSkewOffsetX(...$argv);
+	}
+	static function getFillOpacity(...$argv) {
+		return Java(self::$_className)->getFillOpacity(...$argv);
+	}
+	static function getPptR(...$argv) {
+		return Java(self::$_className)->getPptR(...$argv);
 	}
 	static function getShadowOriginX(...$argv) {
 		return Java(self::$_className)->getShadowOriginX(...$argv);
 	}
-}
-class MathBoxFactory extends Java {
-	static private $_className = "com.aspose.slides.MathBoxFactory";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
+	static function getStrokeOn(...$argv) {
+		return Java(self::$_className)->getStrokeOn(...$argv);
+	}
+	static function getImageDataGain(...$argv) {
+		return Java(self::$_className)->getImageDataGain(...$argv);
+	}
+	static function getPptW(...$argv) {
+		return Java(self::$_className)->getPptW(...$argv);
+	}
+	static function getScaleY(...$argv) {
+		return Java(self::$_className)->getScaleY(...$argv);
+	}
+	static function getShadowType(...$argv) {
+		return Java(self::$_className)->getShadowType(...$argv);
+	}
+	static function getStrokeColor2(...$argv) {
+		return Java(self::$_className)->getStrokeColor2(...$argv);
+	}
+	static function getYShear(...$argv) {
+		return Java(self::$_className)->getYShear(...$argv);
+	}
+	static function getFillOpacity2(...$argv) {
+		return Java(self::$_className)->getFillOpacity2(...$argv);
+	}
+	static function getShadowOriginY(...$argv) {
+		return Java(self::$_className)->getShadowOriginY(...$argv);
+	}
+	static function getStyleTextDecorationLineThrough(...$argv) {
+		return Java(self::$_className)->getStyleTextDecorationLineThrough(...$argv);
+	}
+	static function getExtrusionOrientationX(...$argv) {
+		return Java(self::$_className)->getExtrusionOrientationX(...$argv);
+	}
+	static function getExtrusionOrientationAngle(...$argv) {
+		return Java(self::$_className)->getExtrusionOrientationAngle(...$argv);
+	}
+	static function getExtrusionRender(...$argv) {
+		return Java(self::$_className)->getExtrusionRender(...$argv);
+	}
+	static function getExtrusionOrientationY(...$argv) {
+		return Java(self::$_className)->getExtrusionOrientationY(...$argv);
+	}
+	static function getExtrusionSkewAngle(...$argv) {
+		return Java(self::$_className)->getExtrusionSkewAngle(...$argv);
+	}
+	static function getExtrusionPlane(...$argv) {
+		return Java(self::$_className)->getExtrusionPlane(...$argv);
+	}
+	static function getExtrusionRotationAngleY(...$argv) {
+		return Java(self::$_className)->getExtrusionRotationAngleY(...$argv);
+	}
+	static function getExtrusionBackDepth(...$argv) {
+		return Java(self::$_className)->getExtrusionBackDepth(...$argv);
+	}
+	static function getExtrusionSkewAmt(...$argv) {
+		return Java(self::$_className)->getExtrusionSkewAmt(...$argv);
+	}
+	static function getExtrusionViewPointOriginY(...$argv) {
+		return Java(self::$_className)->getExtrusionViewPointOriginY(...$argv);
+	}
+	static function getExtrusionViewPointX(...$argv) {
+		return Java(self::$_className)->getExtrusionViewPointX(...$argv);
+	}
+	static function getExtrusionViewPointY(...$argv) {
+		return Java(self::$_className)->getExtrusionViewPointY(...$argv);
+	}
+	static function getExtrusionViewPointZ(...$argv) {
+		return Java(self::$_className)->getExtrusionViewPointZ(...$argv);
+	}
+	static function getFillFocusPositionX(...$argv) {
+		return Java(self::$_className)->getFillFocusPositionX(...$argv);
+	}
+	static function getFillFocusSizeX(...$argv) {
+		return Java(self::$_className)->getFillFocusSizeX(...$argv);
+	}
+	static function getFillFocusPositionY(...$argv) {
+		return Java(self::$_className)->getFillFocusPositionY(...$argv);
+	}
+	static function getExtrusionAutoRotationCenter(...$argv) {
+		return Java(self::$_className)->getExtrusionAutoRotationCenter(...$argv);
+	}
+	static function getFillFocusSizeY(...$argv) {
+		return Java(self::$_className)->getFillFocusSizeY(...$argv);
+	}
+	static function getImageDataBlacklevel(...$argv) {
+		return Java(self::$_className)->getImageDataBlacklevel(...$argv);
+	}
+	static function getExtrusionLockRotationCenter(...$argv) {
+		return Java(self::$_className)->getExtrusionLockRotationCenter(...$argv);
+	}
+	static function getExtrusionOrientationZ(...$argv) {
+		return Java(self::$_className)->getExtrusionOrientationZ(...$argv);
+	}
+	static function getExtrusionColorMode(...$argv) {
+		return Java(self::$_className)->getExtrusionColorMode(...$argv);
+	}
+	static function getExtrusionForeDepth(...$argv) {
+		return Java(self::$_className)->getExtrusionForeDepth(...$argv);
+	}
+	static function getExtrusionRotationAngleX(...$argv) {
+		return Java(self::$_className)->getExtrusionRotationAngleX(...$argv);
+	}
+	static function getExtrusionRotationCenterX(...$argv) {
+		return Java(self::$_className)->getExtrusionRotationCenterX(...$argv);
+	}
+	static function getExtrusionRotationCenterY(...$argv) {
+		return Java(self::$_className)->getExtrusionRotationCenterY(...$argv);
+	}
+	static function getExtrusionRotationCenterZ(...$argv) {
+		return Java(self::$_className)->getExtrusionRotationCenterZ(...$argv);
+	}
+	static function getExtrusionViewPointOriginX(...$argv) {
+		return Java(self::$_className)->getExtrusionViewPointOriginX(...$argv);
+	}
+	static function getExtrusionColor(...$argv) {
+		return Java(self::$_className)->getExtrusionColor(...$argv);
+	}
+	static function getSkewMatrixPerspectiveX(...$argv) {
+		return Java(self::$_className)->getSkewMatrixPerspectiveX(...$argv);
+	}
+	static function getStyleTextEffectOutline(...$argv) {
+		return Java(self::$_className)->getStyleTextEffectOutline(...$argv);
+	}
+	static function getImageDataCropBottom(...$argv) {
+		return Java(self::$_className)->getImageDataCropBottom(...$argv);
+	}
+	static function getStyleFontWeight(...$argv) {
+		return Java(self::$_className)->getStyleFontWeight(...$argv);
+	}
+	static function getStrokeEndArrowWidth(...$argv) {
+		return Java(self::$_className)->getStrokeEndArrowWidth(...$argv);
+	}
+	static function getImageDataGamma(...$argv) {
+		return Java(self::$_className)->getImageDataGamma(...$argv);
+	}
+	static function getStrokeLineStyle(...$argv) {
+		return Java(self::$_className)->getStrokeLineStyle(...$argv);
+	}
+	static function getStrokeStartArrowWidth(...$argv) {
+		return Java(self::$_className)->getStrokeStartArrowWidth(...$argv);
+	}
+	static function getSkewMatrixYtoY(...$argv) {
+		return Java(self::$_className)->getSkewMatrixYtoY(...$argv);
+	}
+	static function getStyleTextShadow(...$argv) {
+		return Java(self::$_className)->getStyleTextShadow(...$argv);
+	}
+	static function getShadowOffset2X(...$argv) {
+		return Java(self::$_className)->getShadowOffset2X(...$argv);
+	}
+	static function getStyleTextTransform(...$argv) {
+		return Java(self::$_className)->getStyleTextTransform(...$argv);
+	}
+	static function getStrokeStartArrow(...$argv) {
+		return Java(self::$_className)->getStrokeStartArrow(...$argv);
+	}
+	static function getStrokeEndArrow(...$argv) {
+		return Java(self::$_className)->getStrokeEndArrow(...$argv);
+	}
+	static function getStyleVisibility(...$argv) {
+		return Java(self::$_className)->getStyleVisibility(...$argv);
+	}
+	static function getSkewMatrixXtoX(...$argv) {
+		return Java(self::$_className)->getSkewMatrixXtoX(...$argv);
+	}
+	static function getImageDataCropTop(...$argv) {
+		return Java(self::$_className)->getImageDataCropTop(...$argv);
+	}
+	static function getStrokeEndArrowLength(...$argv) {
+		return Java(self::$_className)->getStrokeEndArrowLength(...$argv);
+	}
+	static function getStrokeImageSizeY(...$argv) {
+		return Java(self::$_className)->getStrokeImageSizeY(...$argv);
+	}
+	static function getShadowOffset2Y(...$argv) {
+		return Java(self::$_className)->getShadowOffset2Y(...$argv);
+	}
+	static function getSkewMatrixXtoY(...$argv) {
+		return Java(self::$_className)->getSkewMatrixXtoY(...$argv);
+	}
+	static function getImageDataCropLeft(...$argv) {
+		return Java(self::$_className)->getImageDataCropLeft(...$argv);
+	}
+	static function getStrokeDashStyle(...$argv) {
+		return Java(self::$_className)->getStrokeDashStyle(...$argv);
+	}
+	static function getStrokeStartArrowLength(...$argv) {
+		return Java(self::$_className)->getStrokeStartArrowLength(...$argv);
+	}
+	static function getShadowMatrixYtoX(...$argv) {
+		return Java(self::$_className)->getShadowMatrixYtoX(...$argv);
+	}
+	static function getShadowMatrixXtoY(...$argv) {
+		return Java(self::$_className)->getShadowMatrixXtoY(...$argv);
+	}
+	static function getStyleFontFamily(...$argv) {
+		return Java(self::$_className)->getStyleFontFamily(...$argv);
+	}
+	static function getOrCreateByValue(...$argv) {
+		return Java(self::$_className)->getOrCreateByValue(...$argv);
+	}
+	static function getStyleFontStyle(...$argv) {
+		return Java(self::$_className)->getStyleFontStyle(...$argv);
+	}
+	static function getImageDataGrayscale(...$argv) {
+		return Java(self::$_className)->getImageDataGrayscale(...$argv);
+	}
+	static function getStrokeFillType(...$argv) {
+		return Java(self::$_className)->getStrokeFillType(...$argv);
+	}
+	static function getShadowMatrixPerspectiveY(...$argv) {
+		return Java(self::$_className)->getShadowMatrixPerspectiveY(...$argv);
+	}
+	static function getSkewMatrixPerspectiveY(...$argv) {
+		return Java(self::$_className)->getSkewMatrixPerspectiveY(...$argv);
+	}
+	static function getStrokeImageSizeX(...$argv) {
+		return Java(self::$_className)->getStrokeImageSizeX(...$argv);
+	}
+	static function getStyleTextDecorationUnderline(...$argv) {
+		return Java(self::$_className)->getStyleTextDecorationUnderline(...$argv);
+	}
+	static function getImageDataCropRight(...$argv) {
+		return Java(self::$_className)->getImageDataCropRight(...$argv);
+	}
+	static function getShadowMatrixPerspectiveX(...$argv) {
+		return Java(self::$_className)->getShadowMatrixPerspectiveX(...$argv);
+	}
+	static function getSkewMatrixYtoX(...$argv) {
+		return Java(self::$_className)->getSkewMatrixYtoX(...$argv);
+	}
+	static function getStyleTextEffectEmboss(...$argv) {
+		return Java(self::$_className)->getStyleTextEffectEmboss(...$argv);
+	}
+	static function getShadowMatrixYtoY(...$argv) {
+		return Java(self::$_className)->getShadowMatrixYtoY(...$argv);
+	}
+	static function getShadowMatrixXtoX(...$argv) {
+		return Java(self::$_className)->getShadowMatrixXtoX(...$argv);
+	}
+	static function getImageDataChromakey(...$argv) {
+		return Java(self::$_className)->getImageDataChromakey(...$argv);
+	}
+	static function getStyleSRotation(...$argv) {
+		return Java(self::$_className)->getStyleSRotation(...$argv);
+	}
+	static function getShadowColor(...$argv) {
+		return Java(self::$_className)->getShadowColor(...$argv);
 	}
 }
 class LineAlignment extends Java {
@@ -5331,14 +5512,59 @@ class LineAlignment extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class RippleTransition extends Java {
+	static private $_className = "com.aspose.slides.RippleTransition";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class ChartLinesFormat extends Java {
 	static private $_className = "com.aspose.slides.ChartLinesFormat";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class FontScheme extends Java {
-	static private $_className = "com.aspose.slides.FontScheme";
+class SmartArtColorType extends Java {
+	const Dark1Outline = 0;
+	const Dark2Outline = 1;
+	const DarkFill = 2;
+	const ColorfulAccentColors = 3;
+	const ColorfulAccentColors2to3 = 4;
+	const ColorfulAccentColors3to4 = 5;
+	const ColorfulAccentColors4to5 = 6;
+	const ColorfulAccentColors5to6 = 7;
+	const ColoredOutlineAccent1 = 8;
+	const ColoredFillAccent1 = 9;
+	const GradientRangeAccent1 = 10;
+	const GradientLoopAccent1 = 11;
+	const TransparentGradientRangeAccent1 = 12;
+	const ColoredOutlineAccent2 = 13;
+	const ColoredFillAccent2 = 14;
+	const GradientRangeAccent2 = 15;
+	const GradientLoopAccent2 = 16;
+	const TransparentGradientRangeAccent2 = 17;
+	const ColoredOutlineAccent3 = 18;
+	const ColoredFillAccent3 = 19;
+	const GradientRangeAccent3 = 20;
+	const GradientLoopAccent3 = 21;
+	const TransparentGradientRangeAccent3 = 22;
+	const ColoredOutlineAccent4 = 23;
+	const ColoredFillAccent4 = 24;
+	const GradientRangeAccent4 = 25;
+	const GradientLoopAccent4 = 26;
+	const TransparentGradientRangeAccent4 = 27;
+	const ColoredOutlineAccent5 = 28;
+	const ColoredFillAccent5 = 29;
+	const GradientRangeAccent5 = 30;
+	const GradientLoopAccent5 = 31;
+	const TransparentGradientRangeAccent5 = 32;
+	const ColoredOutlineAccent6 = 33;
+	const ColoredFillAccent6 = 34;
+	const GradientRangeAccent6 = 35;
+	const GradientLoopAccent6 = 36;
+	const TransparentGradientRangeAccent6 = 37;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.SmartArtColorType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -5351,12 +5577,6 @@ class ColorOperation extends Java {
 }
 class FontData extends Java {
 	static private $_className = "com.aspose.slides.FontData";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class CornerDirectionTransition extends Java {
-	static private $_className = "com.aspose.slides.CornerDirectionTransition";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -5403,37 +5623,36 @@ class MathLeftSubSuperscriptElement extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ChartDataPointCollection extends Java {
-	static private $_className = "com.aspose.slides.ChartDataPointCollection";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class AfterAnimationType extends Java {
-	const DoNotDim = 0;
-	const Color = 1;
-	const HideAfterAnimation = 2;
-	const HideOnNextMouseClick = 3;
+class TrendlineType extends Java {
+	const Exponential = 0;
+	const Linear = 1;
+	const Logarithmic = 2;
+	const MovingAverage = 3;
+	const Polynomial = 4;
+	const Power = 5;
 	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.AfterAnimationType";
+	static private $_className = "com.aspose.slides.TrendlineType";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class LayoutSlideHeaderFooterManager extends Java {
-	static private $_className = "com.aspose.slides.LayoutSlideHeaderFooterManager";
+class PictureFillMode extends Java {
+	const Tile = 0;
+	const Stretch = 1;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.PictureFillMode";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ZoomFrame extends Java {
+	static private $_className = "com.aspose.slides.ZoomFrame";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class SideDirectionTransition extends Java {
 	static private $_className = "com.aspose.slides.SideDirectionTransition";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class ErrorBarsCustomValues extends Java {
-	static private $_className = "com.aspose.slides.ErrorBarsCustomValues";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -5457,8 +5676,8 @@ class EffectPresetClassType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class SmartArtShapeCollection extends Java {
-	static private $_className = "com.aspose.slides.SmartArtShapeCollection";
+class MathDelimiterFactory extends Java {
+	static private $_className = "com.aspose.slides.MathDelimiterFactory";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -5505,8 +5724,8 @@ class CustomData extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class CommentAuthorCollection extends Java {
-	static private $_className = "com.aspose.slides.CommentAuthorCollection";
+class CellFormat extends Java {
+	static private $_className = "com.aspose.slides.CellFormat";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -5521,13 +5740,10 @@ class SvgExternalFontsHandling extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class VbaProjectFactory extends Java {
-	static private $_className = "com.aspose.slides.VbaProjectFactory";
+class LegendEntryProperties extends Java {
+	static private $_className = "com.aspose.slides.LegendEntryProperties";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
-	}
-	static function getInstance(...$argv) {
-		return Java(self::$_className)->getInstance(...$argv);
 	}
 }
 class TransitionInOutDirectionType extends Java {
@@ -5563,8 +5779,8 @@ class DigitalSignatureCollection extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class VideoPlayerHtmlController extends Java {
-	static private $_className = "com.aspose.slides.VideoPlayerHtmlController";
+class AdjustValueCollection extends Java {
+	static private $_className = "com.aspose.slides.AdjustValueCollection";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -5597,6 +5813,37 @@ class ImagePixelFormat extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class SwfOptions extends Java {
+	static private $_className = "com.aspose.slides.SwfOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class SchemeColor extends Java {
+	const NotDefined = -1;
+	const Background1 = 0;
+	const Text1 = 1;
+	const Background2 = 2;
+	const Text2 = 3;
+	const Accent1 = 4;
+	const Accent2 = 5;
+	const Accent3 = 6;
+	const Accent4 = 7;
+	const Accent5 = 8;
+	const Accent6 = 9;
+	const Hyperlink = 10;
+	const FollowedHyperlink = 11;
+	const StyleColor = 12;
+	const Dark1 = 13;
+	const Light1 = 14;
+	const Dark2 = 15;
+	const Light2 = 16;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.SchemeColor";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class TextStrikethroughType extends Java {
 	const NotDefined = -1;
 	const None = 0;
@@ -5608,32 +5855,20 @@ class TextStrikethroughType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class Luminance extends Java {
-	static private $_className = "com.aspose.slides.Luminance";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class ChartDataPointLevel extends Java {
 	static private $_className = "com.aspose.slides.ChartDataPointLevel";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class MathBox extends Java {
-	static private $_className = "com.aspose.slides.MathBox";
+class AnimationTimeLine extends Java {
+	static private $_className = "com.aspose.slides.AnimationTimeLine";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class BlobManagementOptions extends Java {
 	static private $_className = "com.aspose.slides.BlobManagementOptions";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class Presentation extends Java {
-	static private $_className = "com.aspose.slides.Presentation";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -5672,14 +5907,8 @@ class ChartSeries extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class OuterShadow extends Java {
-	static private $_className = "com.aspose.slides.OuterShadow";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class WheelTransition extends Java {
-	static private $_className = "com.aspose.slides.WheelTransition";
+class MathNaryOperatorFactory extends Java {
+	static private $_className = "com.aspose.slides.MathNaryOperatorFactory";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -5713,39 +5942,32 @@ class FontSubstitutionInfo extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class BehaviorCollection extends Java {
-	static private $_className = "com.aspose.slides.BehaviorCollection";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class PresentationPlayer extends Java {
 	static private $_className = "com.aspose.slides.PresentationPlayer";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class BlackWhiteMode extends Java {
-	const NotDefined = -1;
-	const Color = 0;
-	const Automatic = 1;
-	const Gray = 2;
-	const LightGray = 3;
-	const InverseGray = 4;
-	const GrayWhite = 5;
-	const BlackGray = 6;
-	const BlackWhite = 7;
-	const Black = 8;
-	const White = 9;
-	const Hidden = 10;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.BlackWhiteMode";
+class ThreeDFormat extends Java {
+	static private $_className = "com.aspose.slides.ThreeDFormat";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ColorOffset extends Java {
+	static private $_className = "com.aspose.slides.ColorOffset";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class Sequence extends Java {
 	static private $_className = "com.aspose.slides.Sequence";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class Row extends Java {
+	static private $_className = "com.aspose.slides.Row";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -5771,22 +5993,8 @@ class TransitionLeftRightDirectionType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class AlphaCeiling extends Java {
-	static private $_className = "com.aspose.slides.AlphaCeiling";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class MathArray extends Java {
 	static private $_className = "com.aspose.slides.MathArray";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class ColorStringFormat extends Java {
-	const Vml = 0;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.ColorStringFormat";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -5797,24 +6005,31 @@ class TableFormat extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class MarkdownExportType extends Java {
-	const Sequential = 0;
-	const TextOnly = 1;
-	const Visual = 2;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.MarkdownExportType";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class Control extends Java {
 	static private $_className = "com.aspose.slides.Control";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class LegendEntryCollection extends Java {
+	static private $_className = "com.aspose.slides.LegendEntryCollection";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class MotionPath extends Java {
 	static private $_className = "com.aspose.slides.MotionPath";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class MathHorizontalAlignment extends Java {
+	const NotDefined = 0;
+	const Left = 1;
+	const Center = 2;
+	const Right = 3;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.MathHorizontalAlignment";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -5830,47 +6045,11 @@ class ChartTypeCharacterizer extends Java {
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
-	static function isErrorBarsYAllowed(...$argv) {
-		return Java(self::$_className)->isErrorBarsYAllowed(...$argv);
-	}
-	static function isErrorBarsXAllowed(...$argv) {
-		return Java(self::$_className)->isErrorBarsXAllowed(...$argv);
-	}
-	static function hasSeriesTrendLines(...$argv) {
-		return Java(self::$_className)->hasSeriesTrendLines(...$argv);
-	}
-	static function isChartTypeDoughnut(...$argv) {
-		return Java(self::$_className)->isChartTypeDoughnut(...$argv);
-	}
 	static function isChartTypePie(...$argv) {
 		return Java(self::$_className)->isChartTypePie(...$argv);
 	}
-	static function isChartTypeColumn(...$argv) {
-		return Java(self::$_className)->isChartTypeColumn(...$argv);
-	}
-	static function isChartTypeSurface(...$argv) {
-		return Java(self::$_className)->isChartTypeSurface(...$argv);
-	}
-	static function isChartTypeLine(...$argv) {
-		return Java(self::$_className)->isChartTypeLine(...$argv);
-	}
-	static function isChartTypeBar(...$argv) {
-		return Java(self::$_className)->isChartTypeBar(...$argv);
-	}
-	static function isChartTypeRadar(...$argv) {
-		return Java(self::$_className)->isChartTypeRadar(...$argv);
-	}
-	static function isChartTypeStock(...$argv) {
-		return Java(self::$_className)->isChartTypeStock(...$argv);
-	}
-	static function isChartTypeArea(...$argv) {
-		return Java(self::$_className)->isChartTypeArea(...$argv);
-	}
-	static function is3DChart(...$argv) {
-		return Java(self::$_className)->is3DChart(...$argv);
-	}
-	static function is2DChart(...$argv) {
-		return Java(self::$_className)->is2DChart(...$argv);
+	static function isChartTypeDoughnut(...$argv) {
+		return Java(self::$_className)->isChartTypeDoughnut(...$argv);
 	}
 	static function isSeriesUsesBubbleSizeCoordinate(...$argv) {
 		return Java(self::$_className)->isSeriesUsesBubbleSizeCoordinate(...$argv);
@@ -5878,20 +6057,56 @@ class ChartTypeCharacterizer extends Java {
 	static function isSeriesUsesValueCoordinate(...$argv) {
 		return Java(self::$_className)->isSeriesUsesValueCoordinate(...$argv);
 	}
+	static function isSeriesUsesXValueCoordinate(...$argv) {
+		return Java(self::$_className)->isSeriesUsesXValueCoordinate(...$argv);
+	}
 	static function isSeriesUsesYValueCoordinate(...$argv) {
 		return Java(self::$_className)->isSeriesUsesYValueCoordinate(...$argv);
 	}
-	static function isSeriesUsesXValueCoordinate(...$argv) {
-		return Java(self::$_className)->isSeriesUsesXValueCoordinate(...$argv);
+	static function isErrorBarsXAllowed(...$argv) {
+		return Java(self::$_className)->isErrorBarsXAllowed(...$argv);
+	}
+	static function isErrorBarsYAllowed(...$argv) {
+		return Java(self::$_className)->isErrorBarsYAllowed(...$argv);
+	}
+	static function hasSeriesTrendLines(...$argv) {
+		return Java(self::$_className)->hasSeriesTrendLines(...$argv);
 	}
 	static function isBar3DChart(...$argv) {
 		return Java(self::$_className)->isBar3DChart(...$argv);
 	}
+	static function isChartTypeBubble(...$argv) {
+		return Java(self::$_className)->isChartTypeBubble(...$argv);
+	}
 	static function isChartTypeScatter(...$argv) {
 		return Java(self::$_className)->isChartTypeScatter(...$argv);
 	}
-	static function isChartTypeBubble(...$argv) {
-		return Java(self::$_className)->isChartTypeBubble(...$argv);
+	static function isChartTypeArea(...$argv) {
+		return Java(self::$_className)->isChartTypeArea(...$argv);
+	}
+	static function isChartTypeBar(...$argv) {
+		return Java(self::$_className)->isChartTypeBar(...$argv);
+	}
+	static function isChartTypeStock(...$argv) {
+		return Java(self::$_className)->isChartTypeStock(...$argv);
+	}
+	static function isChartTypeLine(...$argv) {
+		return Java(self::$_className)->isChartTypeLine(...$argv);
+	}
+	static function isChartTypeRadar(...$argv) {
+		return Java(self::$_className)->isChartTypeRadar(...$argv);
+	}
+	static function is3DChart(...$argv) {
+		return Java(self::$_className)->is3DChart(...$argv);
+	}
+	static function is2DChart(...$argv) {
+		return Java(self::$_className)->is2DChart(...$argv);
+	}
+	static function isChartTypeColumn(...$argv) {
+		return Java(self::$_className)->isChartTypeColumn(...$argv);
+	}
+	static function isChartTypeSurface(...$argv) {
+		return Java(self::$_className)->isChartTypeSurface(...$argv);
 	}
 }
 class PresentationLockingBehavior extends Java {
@@ -5899,34 +6114,6 @@ class PresentationLockingBehavior extends Java {
 	const KeepLocked = 1;
 	const EnumSeparatorCharArray = ",";
 	static private $_className = "com.aspose.slides.PresentationLockingBehavior";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class GradientStop extends Java {
-	static private $_className = "com.aspose.slides.GradientStop";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class SvgCoordinateUnit extends Java {
-	const Inch = 0;
-	const Centimeter = 1;
-	const Millimeter = 2;
-	const Point = 3;
-	const Pica = 4;
-	const Em = 5;
-	const Ex = 6;
-	const Pixel = 7;
-	const Percent = 8;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.SvgCoordinateUnit";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class GeometryPath extends Java {
-	static private $_className = "com.aspose.slides.GeometryPath";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -5970,6 +6157,16 @@ class MathNaryOperator extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class NotesPositions extends Java {
+	const None = 0;
+	const BottomFull = 1;
+	const BottomTruncated = 2;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.NotesPositions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class TransitionCornerDirectionType extends Java {
 	const LeftDown = 0;
 	const LeftUp = 1;
@@ -6000,48 +6197,20 @@ class TextFrameFormat extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class PptxUnsupportedFormatException extends Java {
+	static private $_className = "com.aspose.slides.PptxUnsupportedFormatException";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class TiffOptions extends Java {
 	static private $_className = "com.aspose.slides.TiffOptions";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class PlaceholderType extends Java {
-	const Title = 0;
-	const Body = 1;
-	const CenteredTitle = 2;
-	const Subtitle = 3;
-	const DateAndTime = 4;
-	const SlideNumber = 5;
-	const Footer = 6;
-	const Header = 7;
-	const Object = 8;
-	const Chart = 9;
-	const Table = 10;
-	const ClipArt = 11;
-	const Diagram = 12;
-	const Media = 13;
-	const SlideImage = 14;
-	const Picture = 15;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.PlaceholderType";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class ColumnCollection extends Java {
 	static private $_className = "com.aspose.slides.ColumnCollection";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class MathJustification extends Java {
-	const LeftJustified = 1;
-	const RightJustified = 2;
-	const Centered = 3;
-	const CenteredAsGroup = 4;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.MathJustification";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -6113,8 +6282,8 @@ class NumberedBulletStyle extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class SketchFormat extends Java {
-	static private $_className = "com.aspose.slides.SketchFormat";
+class Theme extends Java {
+	static private $_className = "com.aspose.slides.Theme";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -6142,8 +6311,42 @@ class InOutTransition extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class VbaReferenceCollection extends Java {
-	static private $_className = "com.aspose.slides.VbaReferenceCollection";
+class FilterEffectSubtype extends Java {
+	const None = 0;
+	const Across = 1;
+	const Down = 2;
+	const DownLeft = 3;
+	const DownRight = 4;
+	const FromBottom = 5;
+	const FromLeft = 6;
+	const FromRight = 7;
+	const FromTop = 8;
+	const Horizontal = 9;
+	const In = 10;
+	const InHorizontal = 11;
+	const InVertical = 12;
+	const Left = 13;
+	const Out = 14;
+	const OutHorizontal = 15;
+	const OutVertical = 16;
+	const Right = 17;
+	const Spokes1 = 18;
+	const Spokes2 = 19;
+	const Spokes3 = 20;
+	const Spokes4 = 21;
+	const Spokes8 = 22;
+	const Up = 23;
+	const UpLeft = 24;
+	const UpRight = 25;
+	const Vertical = 26;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.FilterEffectSubtype";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class InvalidPasswordException extends Java {
+	static private $_className = "com.aspose.slides.InvalidPasswordException";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -6173,20 +6376,8 @@ class SlideSizeScaleType extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class SvgShape extends Java {
-	static private $_className = "com.aspose.slides.SvgShape";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class ImageTransformOperationFactory extends Java {
-	static private $_className = "com.aspose.slides.ImageTransformOperationFactory";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class FillOverlay extends Java {
-	static private $_className = "com.aspose.slides.FillOverlay";
+class GraphicalObject extends Java {
+	static private $_className = "com.aspose.slides.GraphicalObject";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -6199,12 +6390,6 @@ class CannotCombine2DAnd3DChartsException extends Java {
 }
 class ColumnFormat extends Java {
 	static private $_className = "com.aspose.slides.ColumnFormat";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class MotionCmdPath extends Java {
-	static private $_className = "com.aspose.slides.MotionCmdPath";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -6253,8 +6438,26 @@ class ScaleEffect extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class SummaryZoomSection extends Java {
+	static private $_className = "com.aspose.slides.SummaryZoomSection";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class Input extends Java {
 	static private $_className = "com.aspose.slides.Input";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class AxesCompositionNotCombinableException extends Java {
+	static private $_className = "com.aspose.slides.AxesCompositionNotCombinableException";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ImageCollection extends Java {
+	static private $_className = "com.aspose.slides.ImageCollection";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -6281,12 +6484,6 @@ class Conformance extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class MathNaryOperatorFactory extends Java {
-	static private $_className = "com.aspose.slides.MathNaryOperatorFactory";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class Picture extends Java {
 	static private $_className = "com.aspose.slides.Picture";
 	function __construct(...$argv) {
@@ -6295,12 +6492,6 @@ class Picture extends Java {
 }
 class ChartPortionFormat extends Java {
 	static private $_className = "com.aspose.slides.ChartPortionFormat";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class Trendline extends Java {
-	static private $_className = "com.aspose.slides.Trendline";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -6344,8 +6535,20 @@ class BaseSlideHeaderFooterManager extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class SummaryZoomFrame extends Java {
-	static private $_className = "com.aspose.slides.SummaryZoomFrame";
+class MathRowSpacingRule extends Java {
+	const SingleLineGap = 0;
+	const OneAndAHalfLineGap = 1;
+	const TwoLineGap = 2;
+	const Exactly = 3;
+	const Multiple = 4;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.MathRowSpacingRule";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class DomObject extends Java {
+	static private $_className = "com.aspose.slides.DomObject";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -6356,110 +6559,8 @@ class ParagraphFactory extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class TableStylePreset extends Java {
-	const Custom = -1;
-	const None = 0;
-	const MediumStyle2Accent1 = 1;
-	const MediumStyle2 = 2;
-	const NoStyleNoGrid = 3;
-	const ThemedStyle1Accent1 = 4;
-	const ThemedStyle1Accent2 = 5;
-	const ThemedStyle1Accent3 = 6;
-	const ThemedStyle1Accent4 = 7;
-	const ThemedStyle1Accent5 = 8;
-	const ThemedStyle1Accent6 = 9;
-	const NoStyleTableGrid = 10;
-	const ThemedStyle2Accent1 = 11;
-	const ThemedStyle2Accent2 = 12;
-	const ThemedStyle2Accent3 = 13;
-	const ThemedStyle2Accent4 = 14;
-	const ThemedStyle2Accent5 = 15;
-	const ThemedStyle2Accent6 = 16;
-	const LightStyle1 = 17;
-	const LightStyle1Accent1 = 18;
-	const LightStyle1Accent2 = 19;
-	const LightStyle1Accent3 = 20;
-	const LightStyle1Accent4 = 21;
-	const LightStyle2Accent5 = 22;
-	const LightStyle1Accent6 = 23;
-	const LightStyle2 = 24;
-	const LightStyle2Accent1 = 25;
-	const LightStyle2Accent2 = 26;
-	const LightStyle2Accent3 = 27;
-	const MediumStyle2Accent3 = 28;
-	const MediumStyle2Accent4 = 29;
-	const MediumStyle2Accent5 = 30;
-	const LightStyle2Accent6 = 31;
-	const LightStyle2Accent4 = 32;
-	const LightStyle3 = 33;
-	const LightStyle3Accent1 = 34;
-	const MediumStyle2Accent2 = 35;
-	const LightStyle3Accent2 = 36;
-	const LightStyle3Accent3 = 37;
-	const LightStyle3Accent4 = 38;
-	const LightStyle3Accent5 = 39;
-	const LightStyle3Accent6 = 40;
-	const MediumStyle1 = 41;
-	const MediumStyle1Accent1 = 42;
-	const MediumStyle1Accent2 = 43;
-	const MediumStyle1Accent3 = 44;
-	const MediumStyle1Accent4 = 45;
-	const MediumStyle1Accent5 = 46;
-	const MediumStyle1Accent6 = 47;
-	const MediumStyle2Accent6 = 48;
-	const MediumStyle3 = 49;
-	const MediumStyle3Accent1 = 50;
-	const MediumStyle3Accent2 = 51;
-	const MediumStyle3Accent3 = 52;
-	const MediumStyle3Accent4 = 53;
-	const MediumStyle3Accent5 = 54;
-	const MediumStyle3Accent6 = 55;
-	const MediumStyle4 = 56;
-	const MediumStyle4Accent1 = 57;
-	const MediumStyle4Accent2 = 58;
-	const MediumStyle4Accent3 = 59;
-	const MediumStyle4Accent4 = 60;
-	const MediumStyle4Accent5 = 61;
-	const MediumStyle4Accent6 = 62;
-	const DarkStyle1 = 63;
-	const DarkStyle1Accent1 = 64;
-	const DarkStyle1Accent2 = 65;
-	const DarkStyle1Accent3 = 66;
-	const DarkStyle1Accent4 = 67;
-	const DarkStyle1Accent5 = 68;
-	const DarkStyle1Accent6 = 69;
-	const DarkStyle2 = 70;
-	const DarkStyle2Accent1Accent2 = 71;
-	const DarkStyle2Accent3Accent4 = 72;
-	const DarkStyle2Accent5Accent6 = 73;
-	const LightStyle1Accent5 = 74;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.TableStylePreset";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class SchemeColor extends Java {
-	const NotDefined = -1;
-	const Background1 = 0;
-	const Text1 = 1;
-	const Background2 = 2;
-	const Text2 = 3;
-	const Accent1 = 4;
-	const Accent2 = 5;
-	const Accent3 = 6;
-	const Accent4 = 7;
-	const Accent5 = 8;
-	const Accent6 = 9;
-	const Hyperlink = 10;
-	const FollowedHyperlink = 11;
-	const StyleColor = 12;
-	const Dark1 = 13;
-	const Light1 = 14;
-	const Dark2 = 15;
-	const Light2 = 16;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.SchemeColor";
+class ResponsiveHtmlController extends Java {
+	static private $_className = "com.aspose.slides.ResponsiveHtmlController";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -6476,10 +6577,25 @@ class NotesSlideThemeManager extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class Theme extends Java {
-	static private $_className = "com.aspose.slides.Theme";
+class SlideUtil extends Java {
+	static private $_className = "com.aspose.slides.SlideUtil";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
+	}
+	static function getAllTextFrames(...$argv) {
+		return Java(self::$_className)->getAllTextFrames(...$argv);
+	}
+	static function alignShapes(...$argv) {
+		return Java(self::$_className)->alignShapes(...$argv);
+	}
+	static function findShape(...$argv) {
+		return Java(self::$_className)->findShape(...$argv);
+	}
+	static function getAllTextBoxes(...$argv) {
+		return Java(self::$_className)->getAllTextBoxes(...$argv);
+	}
+	static function findAndReplaceText(...$argv) {
+		return Java(self::$_className)->findAndReplaceText(...$argv);
 	}
 }
 class Output extends Java {
@@ -6488,14 +6604,20 @@ class Output extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class Timing extends Java {
-	static private $_className = "com.aspose.slides.Timing";
+class Column extends Java {
+	static private $_className = "com.aspose.slides.Column";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class MathElementBase extends Java {
 	static private $_className = "com.aspose.slides.MathElementBase";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class AlphaCeiling extends Java {
+	static private $_className = "com.aspose.slides.AlphaCeiling";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -6551,6 +6673,12 @@ class TextInheritanceLimit extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class HtmlOptions extends Java {
+	static private $_className = "com.aspose.slides.HtmlOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class Tint extends Java {
 	static private $_className = "com.aspose.slides.Tint";
 	function __construct(...$argv) {
@@ -6563,26 +6691,32 @@ class TransitionValueBase extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class HSL extends Java {
+	static private $_className = "com.aspose.slides.HSL";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class Legend extends Java {
 	static private $_className = "com.aspose.slides.Legend";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ColorReplace extends Java {
-	static private $_className = "com.aspose.slides.ColorReplace";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class SlideSize extends Java {
-	static private $_className = "com.aspose.slides.SlideSize";
+class NormalViewProperties extends Java {
+	static private $_className = "com.aspose.slides.NormalViewProperties";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class AxisFormat extends Java {
 	static private $_className = "com.aspose.slides.AxisFormat";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class StringChartValue extends Java {
+	static private $_className = "com.aspose.slides.StringChartValue";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -6605,12 +6739,6 @@ class SlideCollection extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class SplitTransition extends Java {
-	static private $_className = "com.aspose.slides.SplitTransition";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class EffectFillType extends Java {
 	const NotDefined = -1;
 	const Remove = 0;
@@ -6625,6 +6753,12 @@ class EffectFillType extends Java {
 }
 class ChartCategory extends Java {
 	static private $_className = "com.aspose.slides.ChartCategory";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class XpsOptions extends Java {
+	static private $_className = "com.aspose.slides.XpsOptions";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -6677,181 +6811,40 @@ class FrameTickEventArgs extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class PortionFactory extends Java {
+	static private $_className = "com.aspose.slides.PortionFactory";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class ChartDataCell extends Java {
 	static private $_className = "com.aspose.slides.ChartDataCell";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class PathCommandType extends Java {
-	const Close = 0;
-	const MoveTo = 1;
-	const LineTo = 2;
-	const ArcTo = 3;
-	const QuadBezierTo = 4;
-	const CubicBezierTo = 5;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.PathCommandType";
+class AudioCollection extends Java {
+	static private $_className = "com.aspose.slides.AudioCollection";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class PptxUnsupportedFormatException extends Java {
-	static private $_className = "com.aspose.slides.PptxUnsupportedFormatException";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class SmartArtLayoutType extends Java {
-	const AccentProcess = 0;
-	const AccentedPicture = 1;
-	const AlternatingFlow = 2;
-	const AlternatingHexagons = 3;
-	const AlternatingPictureBlocks = 4;
-	const AlternatingPictureCircles = 5;
-	const ArrowRibbon = 6;
-	const AscendingPictureAccentProcess = 7;
-	const Balance = 8;
-	const BasicBendingProcess = 9;
-	const BasicBlockList = 10;
-	const BasicChevronProcess = 11;
-	const BasicCycle = 12;
-	const BasicMatrix = 13;
-	const BasicPie = 14;
-	const BasicProcess = 15;
-	const BasicPyramid = 16;
-	const BasicRadial = 17;
-	const BasicTarget = 18;
-	const BasicTimeline = 19;
-	const BasicVenn = 20;
-	const BendingPictureAccentList = 21;
-	const BendingPictureBlocks = 22;
-	const BendingPictureCaption = 23;
-	const BendingPictureCaptionList = 24;
-	const BendingPictureSemiTransparentText = 25;
-	const BlockCycle = 26;
-	const BubblePictureList = 27;
-	const CaptionedPictures = 28;
-	const ChevronList = 29;
-	const CircleAccentTimeline = 30;
-	const CircleArrowProcess = 31;
-	const CirclePictureHierarchy = 32;
-	const CircleRelationship = 33;
-	const CircularBendingProcess = 34;
-	const CircularPictureCallout = 35;
-	const ClosedChevronProcess = 36;
-	const ContinuousArrowProcess = 37;
-	const ContinuousBlockProcess = 38;
-	const ContinuousCycle = 39;
-	const ContinuousPictureList = 40;
-	const ConvergingArrows = 41;
-	const ConvergingRadial = 42;
-	const CounterbalanceArrows = 43;
-	const CycleMatrix = 44;
-	const DescendingBlockList = 45;
-	const DescendingProcess = 46;
-	const DetailedProcess = 47;
-	const DivergingArrows = 48;
-	const DivergingRadial = 49;
-	const Equation = 50;
-	const FramedTextPicture = 51;
-	const Funnel = 52;
-	const Gear = 53;
-	const GridMatrix = 54;
-	const GroupedList = 55;
-	const HalfCircleOrganizationChart = 56;
-	const HexagonCluster = 57;
-	const Hierarchy = 58;
-	const HierarchyList = 59;
-	const HorizontalBulletList = 60;
-	const HorizontalHierarchy = 61;
-	const HorizontalLabeledHierarchy = 62;
-	const HorizontalMultiLevelHierarchy = 63;
-	const HorizontalOrganizationChart = 64;
-	const HorizontalPictureList = 65;
-	const IncreasingArrowsProcess = 66;
-	const IncreasingCircleProcess = 67;
-	const InvertedPyramid = 68;
-	const LabeledHierarchy = 69;
-	const LinearVenn = 70;
-	const LinedList = 71;
-	const MultidirectionalCycle = 72;
-	const NameandTitleOrganizationChart = 73;
-	const NestedTarget = 74;
-	const NondirectionalCycle = 75;
-	const OpposingArrows = 76;
-	const OpposingIdeas = 77;
-	const OrganizationChart = 78;
-	const PhasedProcess = 79;
-	const PictureAccentBlocks = 80;
-	const PictureAccentList = 81;
-	const PictureAccentProcess = 82;
-	const PictureCaptionList = 83;
-	const PictureGrid = 84;
-	const PictureLineup = 85;
-	const PictureStrips = 86;
-	const PieProcess = 87;
-	const PlusandMinus = 88;
-	const ProcessArrows = 89;
-	const ProcessList = 90;
-	const PyramidList = 91;
-	const RadialCluster = 92;
-	const RadialCycle = 93;
-	const RadialList = 94;
-	const RadialVenn = 95;
-	const RandomToResultProcess = 96;
-	const RepeatingBendingProcess = 97;
-	const ReverseList = 98;
-	const SegmentedCycle = 99;
-	const SegmentedProcess = 100;
-	const SegmentedPyramid = 101;
-	const SnapshotPictureList = 102;
-	const SpiralPicture = 103;
-	const SquareAccentList = 104;
-	const StackedList = 105;
-	const StackedVenn = 106;
-	const StaggeredProcess = 107;
-	const StepDownProcess = 108;
-	const StepUpProcess = 109;
-	const SubStepProcess = 110;
-	const TableHierarchy = 111;
-	const TableList = 112;
-	const TargetList = 113;
-	const TextCycle = 114;
-	const TitlePictureLineup = 115;
-	const TitledMatrix = 116;
-	const TitledPictureAccentList = 117;
-	const TitledPictureBlocks = 118;
-	const TrapezoidList = 119;
-	const UpwardArrow = 120;
-	const VerticalAccentList = 121;
-	const VerticalArrowList = 122;
-	const VerticalBendingProcess = 123;
-	const VerticalBlockList = 124;
-	const VerticalBoxList = 125;
-	const VerticalBulletList = 126;
-	const VerticalChevronList = 127;
-	const VerticalCircleList = 128;
-	const VerticalCurvedList = 129;
-	const VerticalEquation = 130;
-	const VerticalPictureAccentList = 131;
-	const VerticalPictureList = 132;
-	const VerticalProcess = 133;
-	const Custom = 134;
-	const PictureOrganizationChart = 135;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.SmartArtLayoutType";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class CommandEffectType extends Java {
+class LineArrowheadLength extends Java {
 	const NotDefined = -1;
-	const Event = 0;
-	const Call = 1;
-	const Verb = 2;
+	const Short = 0;
+	const Medium = 1;
+	const Long = 2;
 	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.CommandEffectType";
+	static private $_className = "com.aspose.slides.LineArrowheadLength";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class EmbedFontCharacters extends Java {
+	const OnlyUsed = 0;
+	const All = 1;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.EmbedFontCharacters";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -6862,20 +6855,27 @@ class SpreadsheetOptions extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class BulletType extends Java {
-	const NotDefined = -1;
-	const None = 0;
-	const Symbol = 1;
-	const Numbered = 2;
-	const Picture = 3;
-	const EnumSeparatorCharArray = ",";
-	static private $_className = "com.aspose.slides.BulletType";
+class MasterSlideHeaderFooterManager extends Java {
+	static private $_className = "com.aspose.slides.MasterSlideHeaderFooterManager";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class CellInvalidReferenceException extends Java {
-	static private $_className = "com.aspose.slides.CellInvalidReferenceException";
+class BlackWhiteMode extends Java {
+	const NotDefined = -1;
+	const Color = 0;
+	const Automatic = 1;
+	const Gray = 2;
+	const LightGray = 3;
+	const InverseGray = 4;
+	const GrayWhite = 5;
+	const BlackGray = 6;
+	const BlackWhite = 7;
+	const Black = 8;
+	const White = 9;
+	const Hidden = 10;
+	const EnumSeparatorCharArray = ",";
+	static private $_className = "com.aspose.slides.BlackWhiteMode";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
